@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University & Affiliated Colleges Explorer</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+
+        /* Custom scrollbars */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+
+        /* Active university item highlight */
+        .uni-card.active {
+            border-left-color: #4f46e5;
+            background-color: #e0e7ff;
+        }
+
+        /* Glassmorphism details */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(8px);
+        }
+
+        /* Subtle page transition */
+        .fade-in {
+            animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+
+<body class="h-screen flex flex-col overflow-hidden">
+
+    <!-- Navbar -->
+    <header class="bg-white border-b border-slate-200 z-10 shrink-0">
+        <div class="max-w-8xl mx-auto px-6 h-16 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div
+                    class="w-10 h-10 bg-indigo-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-indigo-100">
+                    <i class="fas fa-university text-lg"></i>
+                </div>
+                <div>
+                    <h1 class="text-lg font-bold">University Explorer</h1>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="index.html"
+                    class="px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition text-sm font-semibold flex items-center shadow-md shadow-indigo-100">
+                    <i class="fas mr-2"></i>Placement Dashboard
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="flex-1 flex overflow-hidden">
+
+        <!-- Left Panel: Universities Sidebar -->
+        <aside class="w-96 border-r border-slate-200 bg-white flex flex-col h-full shrink-0 z-0">
+            <!-- Search & Filters -->
+            <div class="p-4 border-b border-slate-100 space-y-3 shrink-0">
+                <div class="relative">
+                    <input type="text" id="uniSearch" placeholder="Search 529 universities"
+                        class="w-full pl-10 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent text-sm transition">
+                    <i class="fas fa-search absolute left-3.5 top-3 text-slate-400 text-sm"></i>
+                </div>
+                <div class="grid grid-cols-2 gap-2">
+                    <div>
+                        <label class="block text-[10px] uppercase font-bold text-slate-400 mb-1">State</label>
+                        <select id="stateFilter"
+                            class="w-full bg-slate-50 border border-slate-200 rounded-lg py-1 px-2 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500 text-slate-600">
+                            <option value="">All States</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-[10px] uppercase font-bold text-slate-400 mb-1">Type</label>
+                        <select id="typeFilter"
+                            class="w-full bg-slate-50 border border-slate-200 rounded-lg py-1 px-2 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500 text-slate-600">
+                            <option value="">All Types</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center text-xs text-slate-500 pt-1">
+                    <span id="uniCountLabel">Loading universities...</span>
+                    <button id="resetFilters" class="text-indigo-600 hover:underline font-medium hidden">Reset</button>
+                </div>
+            </div>
+
+            <!-- University List -->
+            <div id="uniList" class="flex-1 overflow-y-auto divide-y divide-slate-100">
+                <!-- Skeleton loader -->
+                <div class="p-4 space-y-4 animate-pulse">
+                    <div class="h-4 bg-slate-100 rounded w-3/4"></div>
+                    <div class="h-3 bg-slate-100 rounded w-1/2"></div>
+                    <div class="h-3 bg-slate-100 rounded w-1/4"></div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Right Panel: Affiliated Colleges Detail View -->
+        <main class="flex-1 bg-slate-50 flex flex-col h-full overflow-hidden p-6 relative">
+
+            <!-- Default Welcome State -->
+            <div id="welcomeState" class="flex-1 flex flex-col items-center justify-center text-center fade-in">
+                <div
+                    class="w-24 h-24 bg-white rounded-3xl shadow-sm flex items-center justify-center text-indigo-500 border border-slate-100 mb-6">
+                    <i class="fas fa-university text-4xl"></i>
+                </div>
+                <h2 class="text-2xl font-bold text-slate-800 mb-2">Colleges Directory</h2>
+                <p class="text-slate-500 max-w-md mb-8 text-sm">Select a university from the sidebar to view its
+                    complete registry of affiliated campuses, official websites and structural profiles.</p>
+
+                <!-- Quick Stats Grid -->
+                <div class="grid grid-cols-3 gap-6 max-w-2xl w-full">
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">
+                        <span id="statUniCount" class="block text-3xl font-extrabold text-indigo-600 mb-1">...</span>
+                        <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Universities</span>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">
+                        <span id="statColCount" class="block text-3xl font-extrabold text-indigo-600 mb-1">...</span>
+                        <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Total
+                            Colleges</span>
+                    </div>
+                    <div class="bg-white p-5 rounded-2xl border border-slate-100 shadow-sm">
+                        <span id="statAvgCount" class="block text-3xl font-extrabold text-indigo-600 mb-1">...</span>
+                        <span class="text-xs font-semibold text-slate-500 uppercase tracking-wider">Avg.
+                            Colleges/Unin</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- College List Loading State -->
+            <div id="collegeLoadingState" class="hidden flex-1 flex flex-col items-center justify-center">
+                <div class="w-12 h-12 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin mb-4">
+                </div>
+                <p class="text-slate-600 text-sm font-medium">Fetching affiliated colleges...</p>
+            </div>
+
+            <!-- Detailed Content State (Hidden initially) -->
+            <div id="detailState" class="hidden flex-1 flex flex-col overflow-hidden fade-in">
+
+                <!-- Selected University Summary Header -->
+                <div
+                    class="bg-white border border-slate-200 rounded-2xl p-6 mb-6 shadow-sm flex flex-col md:flex-row justify-between items-start md:items-center gap-4 shrink-0">
+                    <div class="space-y-1.5 max-w-2xl">
+                        <span id="detailUniType"
+                            class="inline-block text-[10px] font-extrabold uppercase bg-indigo-50 text-indigo-700 px-2 py-0.5 rounded tracking-wide">STATE
+                            PUBLIC UNIVERSITY</span>
+                        <h2 id="detailUniName" class="text-xl font-bold text-slate-800 leading-snug">Kavayitri Bahinabai
+                            Chaudhari North Maharashtra University, Jalgaon</h2>
+                        <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-slate-500 font-medium">
+                            <span><i class="fas mr-1.5 text-slate-400"></i>AISHE Code: <span id="detailUniCode"
+                                    class="font-mono text-slate-700">U-0320</span></span>
+                            <span><i class="fas fa-map-marker-alt mr-1.5 text-slate-400"></i>State: <span
+                                    id="detailUniState" class="text-slate-700">Maharashtra</span></span>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-slate-50 border border-slate-100 px-5 py-3.5 rounded-xl text-center shrink-0 min-w-[120px]">
+                        <span id="detailCollegeCount"
+                            class="block text-2xl font-black text-slate-800 leading-none">245</span>
+                        <span
+                            class="text-[10px] font-bold text-slate-400 uppercase tracking-wider mt-1 block">Affiliated
+                            Colleges</span>
+                    </div>
+                </div>
+
+                <!-- Colleges Table Section -->
+                <div
+                    class="flex-1 bg-white border border-slate-200 rounded-2xl flex flex-col overflow-hidden shadow-sm">
+                    <!-- Table Toolbar -->
+                    <div
+                        class="p-4 border-b border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 shrink-0">
+                        <div class="relative w-full sm:w-80">
+                            <input type="text" id="collegeSearch" placeholder="Search within university..."
+                                class="w-full pl-9 pr-4 py-1.5 bg-slate-50 border border-slate-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500 text-sm transition">
+                            <i class="fas fa-search absolute left-3 top-2.5 text-slate-400 text-sm"></i>
+                        </div>
+                        <div class="flex flex-wrap items-center gap-3 w-full sm:w-auto justify-end">
+                            <select id="colTypeFilter"
+                                class="bg-slate-50 border border-slate-200 rounded-lg py-1.5 px-3 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500 text-slate-600">
+                                <option value="">All College Types</option>
+                            </select>
+                            <select id="colManagementFilter"
+                                class="bg-slate-50 border border-slate-200 rounded-lg py-1.5 px-3 text-xs focus:outline-none focus:ring-1 focus:ring-indigo-500 text-slate-600">
+                                <option value="">All Managements</option>
+                            </select>
+                            <span id="colCountBadge"
+                                class="text-xs text-slate-500 font-semibold px-2 py-1 bg-slate-100 rounded">0 / 0</span>
+                        </div>
+                    </div>
+
+                    <!-- Table container -->
+                    <div class="flex-1 overflow-auto">
+                        <table class="w-full text-left border-collapse">
+                            <thead class="bg-slate-50 border-b border-slate-200 sticky top-0 z-10">
+                                <tr>
+                                    <th
+                                        class="py-3 px-4 text-xs font-bold text-slate-500 uppercase tracking-wider w-24">
+                                        AISHE Code</th>
+                                    <th class="py-3 px-4 text-xs font-bold text-slate-500 uppercase tracking-wider">
+                                        College Name</th>
+                                    <th
+                                        class="py-3 px-4 text-xs font-bold text-slate-500 uppercase tracking-wider w-40">
+                                        District</th>
+                                    <th
+                                        class="py-3 px-4 text-xs font-bold text-slate-500 uppercase tracking-wider w-40">
+                                        College Type</th>
+                                    <th
+                                        class="py-3 px-4 text-xs font-bold text-slate-500 uppercase tracking-wider w-44">
+                                        Management</th>
+                                    <th
+                                        class="py-3 px-4 text-xs font-bold text-slate-500 uppercase tracking-wider w-16 text-center">
+                                        Info</th>
+                                </tr>
+                            </thead>
+                            <tbody id="collegeTableBody" class="divide-y divide-slate-100">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                        <div id="noCollegesFound" class="hidden py-12 text-center text-slate-500 text-sm">
+                            <i class="fas fa-exclamation-circle text-2xl mb-2 text-slate-300"></i>
+                            <p>No affiliated colleges match your filters.</p>
+                        </div>
+                    </div>
+                    <!-- Pagination Toolbar -->
+                    <div id="paginationToolbar" class="p-4 border-t border-slate-200 bg-slate-50 flex items-center justify-between shrink-0 text-xs text-slate-600 rounded-b-2xl">
+                        <div>
+                            Showing <span id="pagStart" class="font-semibold text-slate-700">0</span> to <span id="pagEnd" class="font-semibold text-slate-700">0</span> of <span id="pagTotal" class="font-semibold text-slate-700">0</span> colleges
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <button id="btnPrevPage" class="px-2.5 py-1.5 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 disabled:opacity-50 disabled:cursor-not-allowed font-semibold shadow-sm transition flex items-center">
+                                <i class="fas fa-chevron-left mr-1"></i>Prev
+                            </button>
+                            <span class="font-medium text-slate-500">Page <span id="pagCurrent" class="text-slate-700 font-bold">1</span> of <span id="pagTotalPages" class="text-slate-700 font-bold">1</span></span>
+                            <button id="btnNextPage" class="px-2.5 py-1.5 bg-white border border-slate-200 rounded-lg hover:bg-slate-50 disabled:opacity-50 disabled:cursor-not-allowed font-semibold shadow-sm transition flex items-center">
+                                Next<i class="fas fa-chevron-right ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </main>
+    </div>
+
+    <!-- College Info Modal -->
+    <div id="infoModal"
+        class="hidden fixed inset-0 z-50 overflow-hidden flex items-center justify-center bg-slate-900 bg-opacity-50 p-4 transition-opacity duration-300">
+        <div
+            class="bg-white rounded-2xl max-w-lg w-full shadow-2xl overflow-hidden transform scale-95 transition-transform duration-300 flex flex-col max-h-[85vh]">
+            <div class="p-6 border-b border-slate-100 flex items-center justify-between shrink-0">
+                <h3 class="text-lg font-bold text-slate-800 flex items-center">
+                    <i class="fas fa-graduation-cap text-indigo-500 mr-2.5"></i>College Profile
+                </h3>
+                <button onclick="closeModal()"
+                    class="w-8 h-8 rounded-full hover:bg-slate-100 flex items-center justify-center text-slate-400 hover:text-slate-600 transition">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="p-6 overflow-y-auto space-y-4 text-sm" id="modalContent">
+                <!-- Filled dynamically -->
+            </div>
+            <div class="p-4 bg-slate-50 border-t border-slate-100 flex justify-end shrink-0">
+                <button onclick="closeModal()"
+                    class="px-4 py-2 bg-slate-800 hover:bg-slate-900 text-white rounded-xl text-xs font-bold transition">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS Logic -->
+    <script>
+        let universities = [];
+        let currentColleges = [];
+        let filteredColleges = [];
+        let activeUniCode = null;
+
+        // Pagination state
+        let currentPage = 1;
+        const itemsPerPage = 100;
+
+        // On Load
+        document.addEventListener('DOMContentLoaded', async () => {
+            await fetchUniversities();
+            setupEventListeners();
+        });
+
+        // Fetch List of Universities
+        async function fetchUniversities() {
+            try {
+                const res = await fetch('/api/universities');
+                if (!res.ok) throw new Error("Failed to fetch universities list");
+                universities = await res.json();
+
+                // Update stats dynamically
+                const totalColleges = universities.reduce((acc, u) => acc + u.college_count, 0);
+                const avgColleges = universities.length ? Math.round(totalColleges / universities.length) : 0;
+
+                document.getElementById('statUniCount').textContent = universities.length.toLocaleString();
+                document.getElementById('statColCount').textContent = totalColleges.toLocaleString();
+                document.getElementById('statAvgCount').textContent = avgColleges.toLocaleString();
+                document.getElementById('uniSearch').placeholder = `Search ${universities.length} universities...`;
+
+                // Populate Filter dropdowns
+                populateFilterDropdowns();
+
+                // Render List
+                renderUniversitiesList();
+            } catch (err) {
+                console.error(err);
+                document.getElementById('uniList').innerHTML = `
+                    <div class="p-4 text-red-500 text-sm text-center">
+                        <i class="fas fa-exclamation-circle text-xl mb-1"></i>
+                        <p>Error loading universities list. Make sure the uvicorn server is running.</p>
+                    </div>
+                `;
+            }
+        }
+
+        // Populate Dropdowns
+        function populateFilterDropdowns() {
+            const states = [...new Set(universities.map(u => u.state).filter(Boolean))].sort();
+            const types = [...new Set(universities.map(u => u.university_type).filter(Boolean))].sort();
+
+            const stateSel = document.getElementById('stateFilter');
+            const typeSel = document.getElementById('typeFilter');
+
+            states.forEach(s => {
+                const opt = document.createElement('option');
+                opt.value = s;
+                opt.textContent = s;
+                stateSel.appendChild(opt);
+            });
+
+            types.forEach(t => {
+                const opt = document.createElement('option');
+                opt.value = t;
+                opt.textContent = t;
+                typeSel.appendChild(opt);
+            });
+        }
+
+        // Render University list in sidebar
+        function renderUniversitiesList() {
+            const searchVal = document.getElementById('uniSearch').value.toLowerCase();
+            const stateFilterVal = document.getElementById('stateFilter').value;
+            const typeFilterVal = document.getElementById('typeFilter').value;
+
+            const container = document.getElementById('uniList');
+            container.innerHTML = '';
+
+            const filtered = universities.filter(u => {
+                const matchesSearch = u.university_name.toLowerCase().includes(searchVal) ||
+                    (u.university_aishe_code && u.university_aishe_code.toLowerCase().includes(searchVal));
+                const matchesState = !stateFilterVal || u.state === stateFilterVal;
+                const matchesType = !typeFilterVal || u.university_type === typeFilterVal;
+                return matchesSearch && matchesState && matchesType;
+            });
+
+            // Show reset filter button if filtering is active
+            const isFiltering = searchVal || stateFilterVal || typeFilterVal;
+            document.getElementById('resetFilters').classList.toggle('hidden', !isFiltering);
+
+            document.getElementById('uniCountLabel').textContent = `Showing ${filtered.length} of ${universities.length}`;
+
+            if (filtered.length === 0) {
+                container.innerHTML = `
+                    <div class="p-8 text-center text-slate-400 text-sm">
+                        <i class="fas fa-search text-2xl mb-2 text-slate-300"></i>
+                        <p>No universities found</p>
+                    </div>
+                `;
+                return;
+            }
+
+            filtered.forEach(u => {
+                const card = document.createElement('button');
+                card.type = 'button';
+                card.className = `uni-card w-full text-left p-4 hover:bg-slate-50 transition border-l-4 border-transparent flex flex-col gap-1.5 focus:outline-none ${u.university_aishe_code === activeUniCode ? 'active' : ''}`;
+                card.onclick = () => selectUniversity(u);
+
+                card.innerHTML = `
+                    <div class="flex justify-between items-center gap-2">
+                        <h4 class="font-semibold text-slate-800 text-sm line-clamp-2 leading-tight">${u.university_name}</h4>
+                        <span class="text-[10px] font-bold px-1.5 py-0.5 bg-slate-100 text-slate-600 rounded shrink-0">${u.college_count}</span>
+                    </div>
+                `;
+                container.appendChild(card);
+            });
+        }
+
+        // Select University
+        async function selectUniversity(u) {
+            // Update active state in UI list
+            activeUniCode = u.university_aishe_code;
+            const activeCards = document.querySelectorAll('.uni-card');
+            activeCards.forEach(c => c.classList.remove('active'));
+
+            // Re-render sidebar to highlight the selected card
+            renderUniversitiesList();
+
+            // Toggle UI panels
+            document.getElementById('welcomeState').classList.add('hidden');
+            document.getElementById('detailState').classList.add('hidden');
+            document.getElementById('collegeLoadingState').classList.remove('hidden');
+
+            try {
+                // Fetch affiliated colleges
+                const res = await fetch(`/api/universities/${u.university_aishe_code}/colleges`);
+                if (!res.ok) throw new Error("Failed to fetch colleges for university");
+                currentColleges = await res.json();
+
+                // Set Header Details
+                document.getElementById('detailUniName').textContent = u.university_name;
+                document.getElementById('detailUniCode').textContent = u.university_aishe_code;
+                document.getElementById('detailUniState').textContent = u.state || 'Unknown';
+                document.getElementById('detailUniType').textContent = u.university_type;
+                document.getElementById('detailCollegeCount').textContent = u.college_count;
+
+                // Reset page filters and pagination
+                document.getElementById('collegeSearch').value = '';
+                currentPage = 1;
+
+                // Build dynamic filters for colleges
+                buildCollegeFilters();
+
+                // Filter and render
+                filterAndRenderColleges();
+
+                document.getElementById('collegeLoadingState').classList.add('hidden');
+                document.getElementById('detailState').classList.remove('hidden');
+            } catch (err) {
+                console.error(err);
+                document.getElementById('collegeLoadingState').classList.add('hidden');
+                alert("Error loading affiliated colleges. Please try again.");
+            }
+        }
+
+        // Build unique filters for colleges within the selected university
+        function buildCollegeFilters() {
+            const types = [...new Set(currentColleges.map(c => c.college_type).filter(Boolean))].sort();
+            const managements = [...new Set(currentColleges.map(c => c.management).filter(Boolean))].sort();
+
+            const colTypeFilter = document.getElementById('colTypeFilter');
+            const colManagementFilter = document.getElementById('colManagementFilter');
+
+            colTypeFilter.innerHTML = '<option value="">All College Types</option>';
+            colManagementFilter.innerHTML = '<option value="">All Managements</option>';
+
+            types.forEach(t => {
+                const opt = document.createElement('option');
+                opt.value = t;
+                opt.textContent = t;
+                colTypeFilter.appendChild(opt);
+            });
+
+            managements.forEach(m => {
+                const opt = document.createElement('option');
+                opt.value = m;
+                opt.textContent = m;
+                colManagementFilter.appendChild(opt);
+            });
+        }
+
+        // Filter and Render Colleges
+        function filterAndRenderColleges() {
+            const searchVal = document.getElementById('collegeSearch').value.toLowerCase();
+            const typeFilter = document.getElementById('colTypeFilter').value;
+            const managementFilter = document.getElementById('colManagementFilter').value;
+
+            filteredColleges = currentColleges.filter(c => {
+                const name = (c.name || '').toLowerCase();
+                const aishe = (c.aishe_code || '').toLowerCase();
+                const district = (c.district || '').toLowerCase();
+
+                const matchesSearch = name.includes(searchVal) || aishe.includes(searchVal) || district.includes(searchVal);
+                const matchesType = !typeFilter || c.college_type === typeFilter;
+                const matchesManagement = !managementFilter || c.management === managementFilter;
+
+                return matchesSearch && matchesType && matchesManagement;
+            });
+
+            // Calculate pagination metrics
+            const totalItems = filteredColleges.length;
+            const totalPages = Math.ceil(totalItems / itemsPerPage) || 1;
+
+            if (currentPage > totalPages) {
+                currentPage = totalPages;
+            }
+            if (currentPage < 1) {
+                currentPage = 1;
+            }
+
+            const startIdx = (currentPage - 1) * itemsPerPage;
+            const endIdx = Math.min(startIdx + itemsPerPage, totalItems);
+            
+            // Show badge count
+            document.getElementById('colCountBadge').textContent = `${totalItems} / ${currentColleges.length}`;
+
+            // Update pagination UI elements
+            document.getElementById('pagStart').textContent = totalItems > 0 ? (startIdx + 1) : 0;
+            document.getElementById('pagEnd').textContent = endIdx;
+            document.getElementById('pagTotal').textContent = totalItems;
+            document.getElementById('pagCurrent').textContent = currentPage;
+            document.getElementById('pagTotalPages').textContent = totalPages;
+
+            // Enable/disable navigation buttons
+            document.getElementById('btnPrevPage').disabled = (currentPage === 1);
+            document.getElementById('btnNextPage').disabled = (currentPage === totalPages);
+
+            const tbody = document.getElementById('collegeTableBody');
+            tbody.innerHTML = '';
+
+            const noCollegesPanel = document.getElementById('noCollegesFound');
+
+            if (totalItems === 0) {
+                noCollegesPanel.classList.remove('hidden');
+                document.getElementById('paginationToolbar').classList.add('hidden');
+                return;
+            }
+            noCollegesPanel.classList.add('hidden');
+            document.getElementById('paginationToolbar').classList.remove('hidden');
+
+            const toRender = filteredColleges.slice(startIdx, endIdx);
+
+            toRender.forEach(c => {
+                const row = document.createElement('tr');
+                row.className = 'hover:bg-slate-50 transition text-sm';
+
+                let linkEl = '-';
+                if (c.website) {
+                    let cleanedUrl = c.website;
+                    if (!cleanedUrl.startsWith('http://') && !cleanedUrl.startsWith('https://')) {
+                        cleanedUrl = 'https://' + cleanedUrl;
+                    }
+                    linkEl = `<a href="${cleanedUrl}" target="_blank" class="w-7 h-7 rounded-lg bg-indigo-50 hover:bg-indigo-100 flex items-center justify-center text-indigo-600 transition inline-flex" title="Visit: ${c.website}"><i class="fas fa-external-link-alt text-xs"></i></a>`;
+                }
+
+                row.innerHTML = `
+                    <td class="py-3 px-4 font-mono text-xs text-slate-500 font-semibold">${c.aishe_code || '-'}</td>
+                    <td class="py-3 px-4 font-semibold text-slate-800 leading-snug">${c.name || '-'}</td>
+                    <td class="py-3 px-4 text-slate-600">${c.district || '-'}</td>
+                    <td class="py-3 px-4 text-slate-600 text-xs">${c.college_type || '-'}</td>
+                    <td class="py-3 px-4 text-slate-600 text-xs">${c.management || '-'}</td>
+                    <td class="py-3 px-4 text-center">${linkEl}</td>
+                `;
+
+                // Add click listener to show profile modal on clicking row contents (except external link)
+                row.querySelectorAll('td:not(:last-child)').forEach(cell => {
+                    cell.style.cursor = 'pointer';
+                    cell.onclick = () => showCollegeModal(c);
+                });
+
+                tbody.appendChild(row);
+            });
+        }
+
+        // Show College Profile Modal
+        function showCollegeModal(c) {
+            const modal = document.getElementById('infoModal');
+            const modalContent = document.getElementById('modalContent');
+
+            // Find current selected university details
+            const currentUni = universities.find(u => u.university_aishe_code === activeUniCode);
+
+            // Add fields to check for null values
+            const details = [];
+
+            // Helper to add if valid
+            function addDetail(label, val, type = 'text') {
+                if (val !== null && val !== undefined && val !== '' && val !== 'null' && val !== 'None') {
+                    const cleanVal = val.toString().trim();
+                    if (cleanVal.toLowerCase() !== 'nan' && cleanVal !== '-') {
+                        details.push({ label, val: cleanVal, type });
+                    }
+                }
+            }
+
+            addDetail('College Name', c.name, 'name');
+            addDetail('AISHE Code', c.aishe_code, 'mono');
+            addDetail('Year of Establishment', c.year_of_establishment);
+            addDetail('State', c.state);
+            addDetail('District', c.district);
+            addDetail('Location', c.location);
+            addDetail('Website', c.website, 'link');
+            addDetail('College Type', c.college_type);
+            addDetail('Management', c.management);
+
+            // If it is an affiliated college under a real university (not standalone virtual group)
+            if (currentUni && currentUni.university_aishe_code !== 'STANDALONE') {
+                addDetail('Affiliated University', currentUni.university_name);
+                addDetail('University Type', currentUni.university_type);
+            }
+
+            let html = '<div class="space-y-4">';
+            
+            // Name section at the top
+            const nameDetail = details.find(d => d.type === 'name');
+            if (nameDetail) {
+                html += `
+                    <div>
+                        <h4 class="text-xs uppercase font-extrabold text-slate-400">College Name</h4>
+                        <p class="text-base font-bold text-slate-800 leading-tight mt-0.5">${nameDetail.val}</p>
+                    </div>
+                `;
+            }
+
+            // Grid for other fields
+            html += '<div class="grid grid-cols-2 gap-4 border-t border-slate-100 pt-3">';
+            details.forEach(detail => {
+                if (detail.type === 'name') return; // already handled
+                
+                let markup = '';
+                if (detail.type === 'link') {
+                    let cleanedUrl = detail.val;
+                    if (!cleanedUrl.startsWith('http://') && !cleanedUrl.startsWith('https://')) {
+                        cleanedUrl = 'https://' + cleanedUrl;
+                    }
+                    markup = `<a href="${cleanedUrl}" target="_blank" class="text-indigo-600 hover:underline flex items-center"><i class="fas fa-external-link-alt mr-1.5 text-xs"></i>${detail.val}</a>`;
+                } else if (detail.type === 'mono') {
+                    markup = `<span class="font-mono font-semibold text-slate-700">${detail.val}</span>`;
+                } else {
+                    markup = `<span class="font-semibold text-slate-700">${detail.val}</span>`;
+                }
+
+                html += `
+                    <div>
+                        <h4 class="text-[10px] uppercase font-extrabold text-slate-400 tracking-wider">${detail.label}</h4>
+                        <p class="text-sm mt-0.5">${markup}</p>
+                    </div>
+                `;
+            });
+            html += '</div></div>';
+
+            modalContent.innerHTML = html;
+
+            modal.classList.remove('hidden');
+            // Animate scale in
+            setTimeout(() => {
+                modal.querySelector('.transform').classList.remove('scale-95');
+                modal.querySelector('.transform').classList.add('scale-100');
+            }, 10);
+        }
+
+        // Close Modal
+        function closeModal() {
+            const modal = document.getElementById('infoModal');
+            modal.querySelector('.transform').classList.remove('scale-100');
+            modal.querySelector('.transform').classList.add('scale-95');
+            setTimeout(() => {
+                modal.classList.add('hidden');
+            }, 150);
+        }
+
+        // Set up search and filter inputs
+        function setupEventListeners() {
+            // University list search and filtering
+            document.getElementById('uniSearch').addEventListener('input', renderUniversitiesList);
+            document.getElementById('stateFilter').addEventListener('change', renderUniversitiesList);
+            document.getElementById('typeFilter').addEventListener('change', renderUniversitiesList);
+
+            // Reset Filters
+            document.getElementById('resetFilters').addEventListener('click', () => {
+                document.getElementById('uniSearch').value = '';
+                document.getElementById('stateFilter').value = '';
+                document.getElementById('typeFilter').value = '';
+                renderUniversitiesList();
+            });
+
+            // College list search and filtering (resets page to 1)
+            document.getElementById('collegeSearch').addEventListener('input', () => {
+                currentPage = 1;
+                filterAndRenderColleges();
+            });
+            document.getElementById('colTypeFilter').addEventListener('change', () => {
+                currentPage = 1;
+                filterAndRenderColleges();
+            });
+            document.getElementById('colManagementFilter').addEventListener('change', () => {
+                currentPage = 1;
+                filterAndRenderColleges();
+            });
+
+            // Pagination button event listeners
+            document.getElementById('btnPrevPage').addEventListener('click', () => {
+                if (currentPage > 1) {
+                    currentPage--;
+                    filterAndRenderColleges();
+                }
+            });
+
+            document.getElementById('btnNextPage').addEventListener('click', () => {
+                const totalPages = Math.ceil(filteredColleges.length / itemsPerPage) || 1;
+                if (currentPage < totalPages) {
+                    currentPage++;
+                    filterAndRenderColleges();
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

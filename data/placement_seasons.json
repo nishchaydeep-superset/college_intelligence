@@ -1,0 +1,1586 @@
+{
+  "Indian Institute of Management Bangalore": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students (2nd year MBA)",
+    "notes": "One of the most prestigious B-schools in India. Final placements held in Feb; summer placements in Oct-Nov. Clusters used for company categorization.",
+    "NAAC_grade": "A++",
+    "Contact": "placements@iimb.ac.in; Phone: +91-80-26993018"
+  },
+  "Indian Institute of Management Kozhikode": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "Summer placements in Sept-Oct. Known for strong lateral and finance placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@iimk.ac.in; Phone: +91-495-2809100"
+  },
+  "Indian Institute of Management Lucknow": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "4th trimester onwards (final placements from 5th trimester)",
+    "notes": "Two-tier placement process: Tier-1 HEPP (Higher Entry Placement Process) for students with 12+ months work experience; Tier-2 for all eligible students. Summer placements conducted after 1st term completion.",
+    "NAAC_grade": "A++",
+    "Contact": "placecom@iiml.ac.in; Phone: +91-522-2734013"
+  },
+  "Indian Institute of Management Mumbai": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "Formerly NITIE Mumbai, converted to IIM in 2022. Strong focus on operations, supply chain and analytics recruiters.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimmumbai.ac.in"
+  },
+  "Indian Institute of Management Calcutta": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "One of the oldest IIMs. Strong finance and consulting placements. Summer placements in Oct. Uses cluster-based placement process.",
+    "NAAC_grade": "A++",
+    "Contact": "placements@iimcal.ac.in; Phone: +91-33-24678300"
+  },
+  "Indian Institute of Management Indore": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "Summer placements in Oct-Nov. Strong FMCG, consulting and finance recruiters. Also has 5-year IPM program with separate placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@iimidr.ac.in; Phone: +91-731-2439670"
+  },
+  "Management Development Institute Gurgaon": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "Strong focus on consulting, BFSI and FMCG. Summer placements in Oct.",
+    "NAAC_grade": "A",
+    "Contact": "placements@mdi.ac.in; Phone: +91-124-4560000"
+  },
+  "XLRI Xavier School of Management": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGDM students (BM/HRM)",
+    "notes": "Two flagship programs: BM and HRM. Strong HR and Finance placements. Summer placements in Oct-Nov.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@xlri.ac.in; Phone: +91-657-3983333"
+  },
+  "Symbiosis Institute of Business Management Pune": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year MBA students",
+    "notes": "Part of Symbiosis International University. Strong marketing and HR placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@sibm.edu; Phone: +91-20-28116276"
+  },
+  "Indian Institute of Management Raipur": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "New-generation IIM. Strong operations and finance placements. Summer placements in Oct.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimraipur.ac.in; Phone: +91-771-2474600"
+  },
+  "Indian Institute of Management Tiruchirappalli": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "New-generation IIM based in Trichy. Collaborative placements with other IIMs.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimtrichy.ac.in; Phone: +91-431-2505000"
+  },
+  "Indian Institute of Foreign Trade": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year MBA (IB) students",
+    "notes": "Specializes in International Business and Trade. Strong placements in export-import, international consulting, and global corporations.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@iift.ac.in; Phone: +91-11-26965124"
+  },
+  "Indian Institute of Management Ranchi": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "New-generation IIM. HR and finance focused recruiters.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimranchi.ac.in; Phone: +91-651-2280057"
+  },
+  "Indian Institute of Management Rohtak": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "New-generation IIM. Improving placement record year on year.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimrohtak.ac.in; Phone: +91-1262-228500"
+  },
+  "SP Jain Institute of Management and Research": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "Strong FMCG, consulting and finance placements. Summer placements in Oct.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@spjimr.org; Phone: +91-22-61454200"
+  },
+  "Indian Institute of Management Udaipur": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "New-generation IIM. Sustainability-focused curriculum. Summer placements in Oct.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimu.ac.in; Phone: +91-294-2471000"
+  },
+  "Indian Institute of Management Kashipur": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "New-generation IIM. Improving placement numbers. Summer placements in Oct.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimkashipur.ac.in; Phone: +91-5947-262200"
+  },
+  "NMIMS School of Business Management": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year MBA students",
+    "notes": "Part of SVKM's NMIMS University. Strong BFSI, FMCG and consulting placements.",
+    "NAAC_grade": "A+",
+    "Contact": "mba.admissions@nmims.edu; Phone: +91-22-42355555"
+  },
+  "Indian Institute of Management Visakhapatnam": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "New-generation IIM. Placements improving year on year.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimv.ac.in; Phone: +91-891-2888888"
+  },
+  "Indian Institute of Management Bodh Gaya": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "One of the newer IIMs. Placements conducted jointly with mentor IIM (IIM Calcutta).",
+    "NAAC_grade": null,
+    "Contact": "placements@iimbg.ac.in"
+  },
+  "Indian Institute of Management Sambalpur": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "One of the newer IIMs. Placements conducted with support of mentor IIM.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimsambalpur.ac.in"
+  },
+  "Indian Institute of Management Jammu": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "One of the newer IIMs. Placements improving with expanding recruiter base.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimj.ac.in"
+  },
+  "Great Lakes Institute of Management Chennai": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGPM/PGDM students",
+    "notes": "1-year and 2-year programs. Strong analytics, BFSI and consulting recruiters.",
+    "NAAC_grade": "A",
+    "Contact": "placements@greatlakes.edu.in; Phone: +91-44-30537000"
+  },
+  "Indian Institute of Management Shillong": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "Focus on sustainability and green business. Summer placements in Oct.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@iimshillong.ac.in; Phone: +91-364-2308000"
+  },
+  "T A Pai Management Institute Bangalore": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "Part of Manipal Group. Strong banking, finance and FMCG placements.",
+    "NAAC_grade": "A",
+    "Contact": "placements@tapmi.edu.in; Phone: +91-820-2701000"
+  },
+  "International Management Institute Delhi": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "Strong consulting, BFSI and marketing placements. Summer placements in Oct.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@imi.edu; Phone: +91-11-47194100"
+  },
+  "Jaipuria Institute of Management Noida": {
+    "placement_months": "November to February",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "PGDM program accredited by AICTE. Strong FMCG and retail placements.",
+    "NAAC_grade": "A",
+    "Contact": "placements@jaipuria.ac.in; Phone: +91-120-3981000"
+  },
+  "International Management Institute Kolkata": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "Sister institute of IMI Delhi. Strong marketing and finance placements.",
+    "NAAC_grade": "A",
+    "Contact": "placements@imikolkata.ac.in; Phone: +91-33-40072000"
+  },
+  "Goa Institute of Management": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "Unique healthcare and hospitality specializations. Strong FMCG and consulting placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@gim.ac.in; Phone: +91-832-2796000"
+  },
+  "FORE School of Management": {
+    "placement_months": "November to February",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "Located in South Delhi's institutional area. Strong BFSI and marketing placements.",
+    "NAAC_grade": "A",
+    "Contact": "placements@fsm.ac.in; Phone: +91-11-41242424"
+  },
+  "Birla Institute of Management Technology Noida": {
+    "placement_months": "November to February",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "Part of the Birla group. PGDM with international business focus. Strong operations and marketing placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@bimtech.ac.in; Phone: +91-120-2323000"
+  },
+  "Indian Institute of Management Amritsar": {
+    "placement_months": "November to February",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "Final year PGP students",
+    "notes": "New-generation IIM. Placements improving year on year.",
+    "NAAC_grade": null,
+    "Contact": "placements@iimamritsar.ac.in; Phone: +91-183-2882000"
+  },
+  "Jaipuria Institute of Management Lucknow": {
+    "placement_months": "November to February",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "Flagship campus. Strong FMCG, retail and banking placements.",
+    "NAAC_grade": "A",
+    "Contact": "placements.lko@jaipuria.ac.in; Phone: +91-522-3981000"
+  },
+  "BML Munjal University": {
+    "placement_months": "December to March",
+    "placement_season": "January to March",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Hero Group university. Strong core engineering and management placements.",
+    "NAAC_grade": "A",
+    "Contact": "placements@bmu.edu.in; Phone: +91-1276-324000"
+  },
+  "Thiagarajar School of Management": {
+    "placement_months": "November to February",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year MBA students",
+    "notes": "Part of Thiagarajar group in Madurai. Strong manufacturing sector placements.",
+    "NAAC_grade": "A",
+    "Contact": "tsm@tsm.ac.in; Phone: +91-452-2483344"
+  },
+  "New Delhi Institute of Management": {
+    "placement_months": "November to February",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "AICTE approved PGDM program. Strong marketing and BFSI placements.",
+    "NAAC_grade": "B++",
+    "Contact": "admissions@ndim.in; Phone: +91-11-29955024"
+  },
+  "Jagan Institute of Management Studies": {
+    "placement_months": "November to February",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "AICTE approved PGDM. Located in Rohini, Delhi. Strong BFSI and retail placements.",
+    "NAAC_grade": "B+",
+    "Contact": "jimsdelhi@jimsindia.org; Phone: +91-11-27051000"
+  },
+  "Rajagiri Business School": {
+    "placement_months": "November to February",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year MBA students",
+    "notes": "CMI institution in Kerala. Strong BFSI and FMCG placements.",
+    "NAAC_grade": "A",
+    "Contact": "rbs@rajagiri.edu; Phone: +91-484-2660999"
+  },
+  "Bharathidasan Institute of Management": {
+    "placement_months": "November to February",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year MBA students",
+    "notes": "Part of Bharathidasan University. Strong manufacturing, FMCG and banking placements.",
+    "NAAC_grade": "A",
+    "Contact": "bimplacements@bdu.ac.in; Phone: +91-431-2407071"
+  },
+  "Institute of Management Technology Nagpur": {
+    "placement_months": "November to February",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year PGDM students",
+    "notes": "PGDM program with specializations in marketing, finance and operations.",
+    "NAAC_grade": "A",
+    "Contact": "placements@imtnagpur.ac.in; Phone: +91-712-2805000"
+  },
+  "University of Lucknow": {
+    "placement_months": "December to March",
+    "placement_season": "January to March",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Central university with diverse programs. Placement cell coordinates with various departments.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@lkouniv.ac.in; Phone: +91-522-2740411"
+  },
+  "Indian Institute of Technology Madras": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech/Dual Degree final year)",
+    "notes": "One of the top IITs. Two phases: Day 1 (top companies) and later phases. Strong core engineering, tech and consulting recruiters. CGPA cutoffs apply for shortlisting.",
+    "NAAC_grade": "A++",
+    "Contact": "placement@iitm.ac.in; Phone: +91-44-22574900"
+  },
+  "Indian Institute of Technology Delhi": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Phase 1 (core/tech) in Dec-Jan, Phase 2 onwards continuing. Strong tech, finance and consulting placements. Day 1 slots highly competitive.",
+    "NAAC_grade": "A",
+    "Contact": "careers@iitd.ac.in; Phone: +91-11-26591999"
+  },
+  "Indian Institute of Technology Bombay": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Premier IIT. Day 1 companies include top tech, finance and consulting firms. Placement process runs in multiple slots. High CGPA cutoffs for top recruiters.",
+    "NAAC_grade": "A++",
+    "Contact": "placement@iitb.ac.in; Phone: +91-22-25764903"
+  },
+  "Indian Institute of Technology Kanpur": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Premier IIT. Strong in core engineering, research and technology placements. Slot-based system. PPOs are significant.",
+    "NAAC_grade": "A",
+    "Contact": "placement@iitk.ac.in; Phone: +91-512-2597643"
+  },
+  "Indian Institute of Technology Kharagpur": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Oldest IIT. Largest campus. Placement process in Dec-Jan for premier companies. Multiple rounds. Strong tech, core and finance placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitkgp.ac.in; Phone: +91-3222-282091"
+  },
+  "Indian Institute of Technology Roorkee": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Oldest technical institution in Asia. Strong civil, electrical and CS placements. Slot-based placement process.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitr.ac.in; Phone: +91-1332-284902"
+  },
+  "Indian Institute of Technology Hyderabad": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT with strong research focus. Placement numbers improving. Strong tech and analytics placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@iith.ac.in; Phone: +91-40-23016076"
+  },
+  "Indian Institute of Technology Guwahati": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "North-east India's premier IIT. Strong tech, core and management placements. Day 1 companies include top product and finance firms.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitg.ac.in; Phone: +91-361-2582002"
+  },
+  "National Institute of Technology Tiruchirappalli": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of the top NITs. Strong tech, core and management placements. Well-structured placement cell.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@nitt.edu; Phone: +91-431-2503000"
+  },
+  "Birla Institute of Technology and Science Pilani": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Premier deemed university. Practice School program enhances placement prospects. Strong tech, finance and consulting placements. CGPA-based shortlisting common.",
+    "NAAC_grade": "A++",
+    "Contact": "placement@pilani.bits-pilani.ac.in; Phone: +91-1596-242210"
+  },
+  "Birla Institute of Technology and Science Pilani, Goa Campus": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Premier deemed university. Practice School program enhances placement prospects. Strong tech, finance and consulting placements. CGPA-based shortlisting common.",
+    "NAAC_grade": "A++",
+    "Contact": "placement@goa.bits-pilani.ac.in; Phone: +91-0832-2580239"
+  },
+  "Birla Institute of Technology and Science Pilani, Hyderabad Campus": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Premier deemed university. Practice School program enhances placement prospects. Strong tech, finance and consulting placements. CGPA-based shortlisting common.",
+    "NAAC_grade": "A++",
+    "Contact": "placement@hyderabad.bits-pilani.ac.in; Phone: +91-40-66303998"
+  },
+  "Indian Institute of Technology Indore": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT. Placement record improving rapidly. Strong tech placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iiti.ac.in; Phone: +91-731-2438000"
+  },
+  "National Institute of Technology Rourkela": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of the oldest NITs. Strong core engineering and tech placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@nitrkl.ac.in; Phone: +91-661-2462017"
+  },
+  "Indian Institute of Technology (Indian School of Mines) Dhanbad": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Formerly ISM Dhanbad, now IIT ISM. Strong core engineering, mining and energy sector placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitism.ac.in; Phone: +91-326-2235422"
+  },
+  "VIT Vellore": {
+    "placement_months": "November to March",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of India's largest private engineering universities. Strong IT and core sector placements. Large number of recruiters visit campus.",
+    "NAAC_grade": "A++",
+    "Contact": "placement@vit.ac.in; Phone: +91-416-2243091"
+  },
+  "National Institute of Technology Karnataka Surathkal": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of top NITs in South India. Strong tech, IT and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@nitk.ac.in; Phone: +91-824-2473003"
+  },
+  "Indian Institute of Technology Patna": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT. Placement numbers growing. Strong tech and analytics placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitp.ac.in; Phone: +91-612-3028000"
+  },
+  "Anna University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Apex technical university of Tamil Nadu. Conducts centralized placement for affiliated colleges. Strong IT and core engineering placements.",
+    "NAAC_grade": "A++",
+    "Contact": "placement@annauniv.edu; Phone: +91-44-22358270"
+  },
+  "National Institute of Technology Calicut": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of the top NITs in South India. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@nitc.ac.in; Phone: +91-495-2286106"
+  },
+  "Siksha 'O' Anusandhan": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university in Bhubaneswar. Strong IT, pharma and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@soa.ac.in; Phone: +91-674-2350181"
+  },
+  "Amrita School of Engineering": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Part of Amrita Vishwa Vidyapeetham. Multiple campuses. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A++",
+    "Contact": "placement@amrita.edu; Phone: +91-422-2685000"
+  },
+  "Jamia Millia Islamia": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Central university in Delhi. Strong IT, engineering and management placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placementcell@jmi.ac.in; Phone: +91-11-26985747"
+  },
+  "Indian Institute of Technology Gandhinagar": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT. Liberal arts integrated with engineering. Placement numbers improving.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitgn.ac.in; Phone: +91-79-23952000"
+  },
+  "Indian Institute of Technology Mandi": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT in Himachal Pradesh. Placement record improving. Strong tech placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitmandi.ac.in; Phone: +91-1905-237900"
+  },
+  "Indian Institute of Technology Jodhpur": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT in Rajasthan. Placement numbers growing. Strong tech and analytics placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitj.ac.in; Phone: +91-291-2801101"
+  },
+  "National Institute of Technology Warangal": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of the top NITs. Strong tech, core and management placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@nitw.ac.in; Phone: +91-870-2462015"
+  },
+  "Chitkara University Institute of Engineering and Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Private university in Punjab. Strong IT and tech placements. Industry-integrated curriculum.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@chitkara.edu.in; Phone: +91-1795-324531"
+  },
+  "Delhi Technological University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Former DCE, now state technical university. Strong tech and core placements. Day 1 companies include top product firms.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@dtu.ac.in; Phone: +91-11-27871018"
+  },
+  "Chandigarh University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of the largest private universities. Large number of recruiters. Strong IT and tech placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@cumail.in; Phone: +91-160-3051003"
+  },
+  "Indian Institute of Technology Ropar": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT. Placement numbers improving steadily.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitrpr.ac.in; Phone: +91-1881-242112"
+  },
+  "Kalasalingam Academy of Research and Education": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university in Tamil Nadu. Strong IT and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@klu.ac.in; Phone: +91-4563-289042"
+  },
+  "Aligarh Muslim University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Central university. Strong engineering, medical and humanities placements. Well-established alumni network.",
+    "NAAC_grade": "A++",
+    "Contact": "placement@amu.ac.in; Phone: +91-571-2700920"
+  },
+  "Koneru Lakshmaiah Education Foundation": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "KL University. Deemed university in Andhra Pradesh. Strong IT and tech placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@kluniversity.in; Phone: +91-866-2747707"
+  },
+  "Kalinga Institute of Industrial Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university in Bhubaneswar. Large campus. Strong IT, core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placementcell@kiit.ac.in; Phone: +91-674-2725113"
+  },
+  "Amity University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Largest private university network. Noida campus flagship. Strong IT and management placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placementcell@amity.edu; Phone: +91-120-4392000"
+  },
+  "International Institute of Information Technology Hyderabad": {
+    "placement_months": "November to March",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous not-for-profit institute. Strong CS, AI and research-oriented placements. High quality tech recruiters.",
+    "NAAC_grade": "A",
+    "Contact": "placement@iiit.ac.in; Phone: +91-40-66531000"
+  },
+  "Indian Institute of Technology Bhubaneswar": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT. Placement numbers improving. Strong tech and analytics placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitbbs.ac.in; Phone: +91-674-7135000"
+  },
+  "Institute of Chemical Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Premier chemical technology institute in India. Strong pharma, chemical and FMCG placements.",
+    "NAAC_grade": "A++",
+    "Contact": "placement@ictmumbai.edu.in; Phone: +91-22-33612000"
+  },
+  "Malaviya National Institute of Technology Jaipur": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of the NITs in Rajasthan. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@mnit.ac.in; Phone: +91-141-2529012"
+  },
+  "Visvesvaraya National Institute of Technology Nagpur": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of the top NITs in central India. Strong core and tech placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@vnit.ac.in; Phone: +91-712-2801333"
+  },
+  "Saveetha Institute of Medical and Technical Sciences": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Deemed university in Chennai. Strong dental, medical and engineering placements.",
+    "NAAC_grade": "A++",
+    "Contact": "placements@saveetha.com; Phone: +91-44-26801999"
+  },
+  "Symbiosis Institute of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Part of Symbiosis International University. Strong IT and tech placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@sitpune.edu.in; Phone: +91-20-39116200"
+  },
+  "Lovely Professional University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of India's largest universities. High volume of placements. Strong IT and management recruiters.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@lpu.co.in; Phone: +91-1824-517000"
+  },
+  "National Institute of Technology Durgapur": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in West Bengal. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@nitdgp.ac.in; Phone: +91-343-2754009"
+  },
+  "National Institute of Technology Silchar": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Assam, North-East India. Strong tech and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@nits.ac.in; Phone: +91-3842-240222"
+  },
+  "Birla Institute of Technology Mesra": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "BIT Mesra flagship campus. Strong core engineering and IT placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@bitmesra.ac.in; Phone: +91-651-2275444"
+  },
+  "Graphic Era Deemed to be University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Private deemed university in Dehradun. Strong IT and tech placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@geu.ac.in; Phone: +91-135-2642715"
+  },
+  "National Institute of Technology Patna": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Bihar. Strong core and tech placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@nitp.ac.in; Phone: +91-612-2370419"
+  },
+  "Indian Institute of Engineering Science and Technology Shibpur": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of the oldest engineering institutes in Asia. Strong core and IT placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@iiest.ac.in; Phone: +91-33-26684561"
+  },
+  "Indian Institute of Technology Jammu": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT. Placement numbers growing. Strong tech placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitjammu.ac.in; Phone: +91-191-2570240"
+  },
+  "Manipal University Jaipur": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Part of Manipal Education Group. Strong IT and tech placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement.muj@jaipur.manipal.edu; Phone: +91-141-3999100"
+  },
+  "Manipal Institute of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Flagship campus of Manipal Academy. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A++",
+    "Contact": "placement.mit@manipal.edu; Phone: +91-820-2923482"
+  },
+  "Madan Mohan Malaviya University of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "State technical university in Gorakhpur. Strong core engineering placements.",
+    "NAAC_grade": "B++",
+    "Contact": "tpo@mmmut.ac.in; Phone: +91-551-2360101"
+  },
+  "Indian Institute of Space Science and Technology": {
+    "placement_months": "December to April",
+    "placement_season": "January to March",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous institute under ISRO. Most graduates placed in ISRO or space sector. Very specialized placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iist.ac.in; Phone: +91-471-2568478"
+  },
+  "Motilal Nehru National Institute of Technology Allahabad": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of the top NITs. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@mnnit.ac.in; Phone: +91-532-2271530"
+  },
+  "Indraprastha Institute of Information Technology Delhi": {
+    "placement_months": "November to March",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous state university in Delhi. Strong CS and IT placements. High quality tech recruiters.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@iiitd.ac.in; Phone: +91-11-26907400"
+  },
+  "Indian Institute of Technology Palakkad": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT in Kerala. Placement numbers growing.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitpkd.ac.in; Phone: +91-491-2332000"
+  },
+  "National Institute of Technology Delhi": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Newer NIT in Delhi. Growing placement record.",
+    "NAAC_grade": "B++",
+    "Contact": "tpo@nitdelhi.ac.in; Phone: +91-11-33861000"
+  },
+  "Sardar Vallabhbhai National Institute of Technology Surat": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Gujarat. Strong core and IT placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@svnit.ac.in; Phone: +91-261-2201744"
+  },
+  "Sathyabama Institute of Science and Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university in Chennai. Strong IT and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@sathyabama.ac.in; Phone: +91-44-24501060"
+  },
+  "International Institute of Information Technology Bangalore": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year M.Tech/Ph.D students",
+    "notes": "Graduate-only institution. Strong research-oriented placements in IT and analytics.",
+    "NAAC_grade": "A",
+    "Contact": "placements@iiitb.ac.in; Phone: +91-80-41140515"
+  },
+  "Netaji Subhas University of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Formerly NSIT Delhi. Strong IT, CS and core placements. Day 1 includes top product companies.",
+    "NAAC_grade": "A+",
+    "Contact": "tpo@nsut.ac.in; Phone: +91-11-25099000"
+  },
+  "Banasthali Vidyapith": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech/MBA final year)",
+    "notes": "Women's university in Rajasthan. Strong IT and management placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@banasthali.in; Phone: +91-1438-228456"
+  },
+  "Indian Institute of Technology Bhilai": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT in Chhattisgarh. Placement numbers growing.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitbhilai.ac.in; Phone: +91-788-3187000"
+  },
+  "National Institute of Technology Srinagar": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Jammu & Kashmir. Strong civil, electrical and IT placements.",
+    "NAAC_grade": "B+",
+    "Contact": "placement@nitsri.ac.in; Phone: +91-194-2422032"
+  },
+  "University of Hyderabad": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Central university. Strong research, IT and management placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@uohyd.ac.in; Phone: +91-40-23134000"
+  },
+  "Ramaiah Institute of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Bengaluru. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@msrit.edu; Phone: +91-80-23600822"
+  },
+  "Christ University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Deemed university in Bengaluru. Strong management, IT and commerce placements.",
+    "NAAC_grade": "A++",
+    "Contact": "placements@christuniversity.in; Phone: +91-80-40129100"
+  },
+  "Indian Institute of Technology Dharwad": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "New-generation IIT in Karnataka. Placement numbers growing.",
+    "NAAC_grade": null,
+    "Contact": "placement@iitdh.ac.in; Phone: +91-836-2250050"
+  },
+  "Rajiv Gandhi Institute of Petroleum Technology": {
+    "placement_months": "December to April",
+    "placement_season": "January to March",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Institute of National Importance under MoPNG. Strong oil, gas and energy sector placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@rgipt.ac.in; Phone: +91-5360-252049"
+  },
+  "Sant Longowal Institute of Engineering and Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university in Punjab. Strong core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@sliet.ac.in; Phone: +91-1672-280068"
+  },
+  "Vignan's Foundation for Science Technology and Research": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university in Andhra Pradesh. Strong IT and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@vignan.ac.in; Phone: +91-863-2344700"
+  },
+  "Maulana Azad National Institute of Technology Bhopal": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Madhya Pradesh. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@manit.ac.in; Phone: +91-755-4051000"
+  },
+  "National Institute of Technology Jamshedpur": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Jharkhand. Strong core engineering and IT placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@nitjsr.ac.in; Phone: +91-657-2373023"
+  },
+  "National Institute of Technology Meghalaya": {
+    "placement_months": "November to April",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in North-East India. Growing placement numbers.",
+    "NAAC_grade": "B+",
+    "Contact": "tpo@nitm.ac.in; Phone: +91-364-2501294"
+  },
+  "National Institute of Technology Kurukshetra": {
+    "placement_months": "November to April",
+    "placement_season": "December to February (peak season)",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Haryana. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@nitkkr.ac.in; Phone: +91-1744-233228"
+  },
+  "National Institute of Technology Raipur": {
+    "placement_months": "November to April",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Chhattisgarh. Strong mining, core engineering and IT placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@nitrr.ac.in; Phone: +91-771-2254200"
+  },
+  "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university in Chennai. Strong IT and engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@veltech.edu.in; Phone: +91-44-26840040"
+  },
+  "New Horizon College of Engineering": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Bengaluru. Strong IT and CS placements.",
+    "NAAC_grade": "A",
+    "Contact": "placements@newhorizonindia.edu; Phone: +91-80-28474892"
+  },
+  "SR University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "University in Warangal, Telangana. Growing placement numbers.",
+    "NAAC_grade": "B+",
+    "Contact": "placements@sru.edu.in; Phone: +91-870-2445566"
+  },
+  "Defence Institute of Advanced Technology": {
+    "placement_months": "December to April",
+    "placement_season": "January to March",
+    "eligible_semester": "Final year M.Tech/Ph.D students",
+    "notes": "Deemed university under Ministry of Defence. Graduate-only programs. Strong defence, aerospace and tech sector placements.",
+    "NAAC_grade": "A",
+    "Contact": "registrar@diat.ac.in; Phone: +91-20-24304090"
+  },
+  "Panjab University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "State central university in Chandigarh. Strong engineering, IT and management placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@pu.ac.in; Phone: +91-172-2534865"
+  },
+  "Jawaharlal Nehru Technological University Hyderabad": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "State technical university governing engineering colleges in Telangana. Conducts centralized placement for affiliated colleges.",
+    "NAAC_grade": "A",
+    "Contact": "placement@jntuh.ac.in; Phone: +91-40-23158661"
+  },
+  "Atal Bihari Vajpayee Indian Institute of Information Technology and Management": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "IIITM Gwalior. Autonomous institute of national importance. Strong IT and management placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@iiitm.ac.in; Phone: +91-751-2449803"
+  },
+  "National Institute of Technology Hamirpur": {
+    "placement_months": "November to April",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Himachal Pradesh. Strong IT and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@nith.ac.in; Phone: +91-1972-254039"
+  },
+  "Pandit Deendayal Energy University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Formerly PDPU. Energy sector focus. Strong oil, gas, power and tech placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@pdpu.ac.in; Phone: +91-79-23275150"
+  },
+  "National Institute of Technology Puducherry": {
+    "placement_months": "November to April",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Puducherry. Growing placement numbers.",
+    "NAAC_grade": "B+",
+    "Contact": "tpo@nitpy.ac.in; Phone: +91-4368-230011"
+  },
+  "Hindusthan College of Engineering and Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Coimbatore. Strong IT and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@hicet.ac.in; Phone: +91-422-2680111"
+  },
+  "IES College of Technology, Bhopal": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Private engineering college in Bhopal. Strong IT and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@iescollege.ac.in; Phone: +91-755-4274000"
+  },
+  "Indian Institute of Information Technology Guwahati": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "IIIT in North-East India under PPP model. Strong IT and CS placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iiitg.ac.in; Phone: +91-361-2672072"
+  },
+  "Indian Institute of Petroleum & Energy": {
+    "placement_months": "December to April",
+    "placement_season": "January to March",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Institute of National Importance. Strong oil, gas and energy sector placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iipe.ac.in; Phone: +91-891-2888888"
+  },
+  "Indira Gandhi Delhi Technical University for Women": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Women's technical university in Delhi. Strong IT and tech placements.",
+    "NAAC_grade": "A+",
+    "Contact": "tpo@igdtuw.ac.in; Phone: +91-11-23900237"
+  },
+  "Jamia Hamdard": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Deemed university in Delhi. Strong pharma, healthcare and management placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@jamiahamdard.ac.in; Phone: +91-11-26059688"
+  },
+  "Galgotias College of Engineering & Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Private engineering college in Greater Noida. Strong IT and tech placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@galgotiacollege.edu; Phone: +91-120-2323000"
+  },
+  "Gandhi Engineering College (GEC)": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Engineering college in Bhubaneswar. Strong IT and core engineering placements.",
+    "NAAC_grade": "B+",
+    "Contact": "placement@gandhiengineeringcollege.com; Phone: +91-674-2386300"
+  },
+  "Gandhi Institute for Technological Advancement (GITA), Bhubaneswar": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous engineering college in Bhubaneswar. Strong IT placements.",
+    "NAAC_grade": "B+",
+    "Contact": "placement@gitabhubaneswar.edu.in; Phone: +91-674-2374000"
+  },
+  "GIET University, Gunupur": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "University in Gunupur, Odisha. Strong IT and core engineering placements.",
+    "NAAC_grade": "B+",
+    "Contact": "placement@giet.edu; Phone: +91-6858-260057"
+  },
+  "GMR Institute of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Engineering college in Rajam, Andhra Pradesh. Strong IT and core placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@gmrit.edu.in; Phone: +91-8941-251541"
+  },
+  "Godavari Institute of Engineering & Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Engineering college in Rajahmundry. Strong IT and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@giet.ac.in; Phone: +91-883-2474461"
+  },
+  "Guru Jambheshwar University of Science and Technology, Hissar": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech/MBA final year)",
+    "notes": "State university in Haryana. Strong engineering and management placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@gjust.ac.in; Phone: +91-1662-276025"
+  },
+  "Harcourt Butler Technical University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Formerly HBTI Kanpur. State technical university. Strong core engineering and IT placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@hbtu.ac.in; Phone: +91-512-2533631"
+  },
+  "Amity University, Gwalior": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech/MBA final year)",
+    "notes": "Amity campus in Gwalior. Strong IT and management placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@gwa.amity.edu; Phone: +91-751-2496700"
+  },
+  "BMS Institute of Technology & Management (BMSIT)": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Bengaluru. Strong IT and CS placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@bmsit.in; Phone: +91-80-23721401"
+  },
+  "Centurion University of Technology & Management (CUTM)": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "University in Odisha with skill-based focus. Strong IT and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@cutm.ac.in; Phone: +91-6742-400400"
+  },
+  "Army Institute of Technology, Pune": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Engineering college run by Army Welfare Education Society. Strong IT and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "ait@aitpune.edu.in; Phone: +91-20-27157534"
+  },
+  "Ajeenkya D Y Patil University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Private university in Pune. Strong IT and management placements.",
+    "NAAC_grade": "B+",
+    "Contact": "placements@adypu.edu.in; Phone: +91-20-71177100"
+  },
+  "Amity University Patna": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech/MBA final year)",
+    "notes": "Amity campus in Patna. Strong IT and management placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@pat.amity.edu; Phone: +91-612-2355000"
+  },
+  "Amity University, Jharkhand": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech/MBA final year)",
+    "notes": "Amity campus in Ranchi. Strong IT and management placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@ran.amity.edu; Phone: +91-651-2280600"
+  },
+  "Annamalai University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "State university in Tamil Nadu. Strong engineering, arts and science placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@annamalaiuniversity.ac.in; Phone: +91-4144-239139"
+  },
+  "B. S. Abdur Rahman Crescent Institute of Science and Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university in Chennai. Strong IT, engineering and management placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@crescent.education; Phone: +91-44-22750201"
+  },
+  "B.M.S. College of Engineering": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "One of the oldest engineering colleges in South India (Bengaluru). Strong IT and core placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@bmsce.ac.in; Phone: +91-80-26622130"
+  },
+  "Bharati Vidyapeeth Deemed University College of Engineering": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university college in Pune. Strong IT and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@bvucoep.edu.in; Phone: +91-20-24324022"
+  },
+  "C M R Institute of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Bengaluru. Strong IT, CS and core placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@cmrit.ac.in; Phone: +91-80-23611901"
+  },
+  "CGC College of Engineering, Landran": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Part of Chandigarh Group of Colleges. Strong IT and tech placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@cgc.ac.in; Phone: +91-160-5091800"
+  },
+  "Chaitanya Bharathi Institute of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Hyderabad. Strong IT, CS and core placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@cbit.ac.in; Phone: +91-40-24193276"
+  },
+  "CVR College of Engineering": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Hyderabad. Strong IT and core placements.",
+    "NAAC_grade": "A",
+    "Contact": "placements@cvr.ac.in; Phone: +91-40-24556600"
+  },
+  "Dayalbagh Educational Institute": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Deemed university in Agra. Strong engineering and humanities placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@dei.ac.in; Phone: +91-562-2801545"
+  },
+  "Dr. D. Y. Patil Institute of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous engineering college in Pune. Strong IT and core placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@dypit.ac.in; Phone: +91-20-27420400"
+  },
+  "G. L. A. University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech/MBA final year)",
+    "notes": "Private university in Mathura. Strong IT and management placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@gla.ac.in; Phone: +91-5662-250900"
+  },
+  "Goka Raju Ranga Raju Institute of Engineering & Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Hyderabad (GRIET). Strong IT and CS placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@griet.ac.in; Phone: +91-40-23040322"
+  },
+  "Guru Ghasidas Vishwavidyalaya": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Central university in Bilaspur. Strong engineering and management placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@ggu.ac.in; Phone: +91-7752-260209"
+  },
+  "Dr. M. G. R. Educational and Research Institute": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university in Chennai. Strong IT, pharma and engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@drmgrdu.ac.in; Phone: +91-44-22300448"
+  },
+  "G.L.Bajaj Institute of Technology and Management": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Engineering and management college in Greater Noida. Strong IT placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@glbitm.ac.in; Phone: +91-120-2323033"
+  },
+  "SRM Easwari Engineering College": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Chennai under SRM Group. Strong IT and CS placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@eec.srmuniv.ac.in; Phone: +91-44-22490027"
+  },
+  "Amity University Rajasthan, Jaipur": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech/MBA final year)",
+    "notes": "Amity campus in Jaipur. Strong IT and management placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@jpr.amity.edu; Phone: +91-141-3999100"
+  },
+  "Chandigarh Engineering College-CGC, Landran, Mohali": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Part of Chandigarh Group of Colleges. Strong IT and tech placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@cgc.edu.in; Phone: +91-160-5091700"
+  },
+  "Chennai Institute of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Chennai. Strong IT and CS placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@citchennai.net; Phone: +91-44-26831500"
+  },
+  "Coimbatore Institute of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Coimbatore. Strong core engineering and IT placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@cit.edu.in; Phone: +91-422-2573833"
+  },
+  "College of Engineering Trivandrum": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Government engineering college, one of the oldest in Kerala. Strong core and IT placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@cet.ac.in; Phone: +91-471-2515560"
+  },
+  "Dr. Vishwanath Karad MIT World Peace University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech/MBA final year)",
+    "notes": "MIT-WPU in Pune. Strong IT, management and engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@mitwpu.edu.in; Phone: +91-20-71177100"
+  },
+  "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Hyderabad (VNR VJIET). Strong IT, CS and core placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@vnrvjiet.in; Phone: +91-40-23042758"
+  },
+  "Anurag University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "University in Hyderabad. Strong IT and CS placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@anurag.edu.in; Phone: +91-40-23731800"
+  },
+  "Bansilal Ramnath Agarwal Charitable Trust's Vishwakarma Institute of Technology Pune": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous institute in Pune. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@vit.edu; Phone: +91-20-24204100"
+  },
+  "Tezpur University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Central university in Assam. Strong engineering and management placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@tezu.ernet.in; Phone: +91-3712-267001"
+  },
+  "The National Institute of Engineering": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous institute in Mysore. Strong IT, CS and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@nie.ac.in; Phone: +91-821-2480475"
+  },
+  "Sri Sairam Engineering College": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Chennai. Strong IT and CS placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@sairam.edu.in; Phone: +91-44-22519101"
+  },
+  "Sri Ramakrishna Engineering College": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Coimbatore. Strong IT and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@srec.ac.in; Phone: +91-422-2666800"
+  },
+  "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "IIITDM under MoE. Focus on design and manufacturing. Strong tech and product design placements.",
+    "NAAC_grade": null,
+    "Contact": "placement@iiitdm.ac.in; Phone: +91-44-27476300"
+  },
+  "Institute of Aeronautical Engineering": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Hyderabad. Strong aerospace, IT and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placements@iare.ac.in; Phone: +91-40-29898543"
+  },
+  "Institute of Engineering & Management": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Engineering college in Kolkata. Strong IT and CS placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@iemcal.com; Phone: +91-33-23576786"
+  },
+  "Integral University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "Private university in Lucknow. Strong engineering, pharma and management placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@iul.ac.in; Phone: +91-522-2890730"
+  },
+  "Islamic University of Science & Technology, Pulwama": {
+    "placement_months": "December to April",
+    "placement_season": "January to March",
+    "eligible_semester": "Final year UG/PG students",
+    "notes": "State university in Jammu & Kashmir. Growing placement numbers.",
+    "NAAC_grade": "B+",
+    "Contact": "placement@iust.ac.in; Phone: +91-1933-261001"
+  },
+  "JSPM's Rajarshi Shahu College of Engineering": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Pune. Strong IT and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@rscoe.org.in; Phone: +91-20-27615555"
+  },
+  "J. C. Bose University of Science and Technology, YMCA": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "State university in Faridabad. Strong core and IT placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@jcboseust.ac.in; Phone: +91-129-2242143"
+  },
+  "Jawaharlal Nehru Technological University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "State technical university governing engineering colleges in Telangana. Conducts centralized placement for affiliated colleges.",
+    "NAAC_grade": "A",
+    "Contact": "placement@jntuh.ac.in; Phone: +91-40-23158661"
+  },
+  "KIET Group of Institutions": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Engineering college in Ghaziabad. Strong IT and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@kiet.edu; Phone: +91-1232-220365"
+  },
+  "KLE Technological University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Formerly BVBCET, now KLE Tech University in Hubballi. Strong IT and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@kletech.ac.in; Phone: +91-836-2378236"
+  },
+  "Ramdeobaba University, Nagpur": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Formerly RCOEM, now a university. Strong IT and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@rbu.edu.in; Phone: +91-712-2580011"
+  },
+  "Sona College of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Salem, Tamil Nadu. Strong IT and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@sonatech.ac.in; Phone: +91-427-4099100"
+  },
+  "Shri Mata Vaishno Devi University": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "State university in Katra, J&K. Strong IT and core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "placement@smvdu.ac.in; Phone: +91-1991-285524"
+  },
+  "National Institute of Technology Manipur": {
+    "placement_months": "November to April",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Manipur, North-East India. Growing placement numbers.",
+    "NAAC_grade": "B+",
+    "Contact": "tpo@nitmanipur.ac.in; Phone: +91-385-2414006"
+  },
+  "National Institute of Technology Sikkim": {
+    "placement_months": "November to April",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in North-East India. Growing placement numbers.",
+    "NAAC_grade": "B",
+    "Contact": "tpo@nitsikkim.ac.in; Phone: +91-3595-260042"
+  },
+  "National Institute of Technology Uttarakhand": {
+    "placement_months": "November to April",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "NIT in Uttarakhand. Growing placement numbers.",
+    "NAAC_grade": "B+",
+    "Contact": "tpo@nituk.ac.in; Phone: +91-1346-252253"
+  },
+  "NMAM Institute of Technology": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college under Nitte Deemed University in coastal Karnataka. Strong IT and core placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@nmamit.nitte.edu.in; Phone: +91-8258-281264"
+  },
+  "North Eastern Regional Institute of Science & Technology": {
+    "placement_months": "December to April",
+    "placement_season": "January to March",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Deemed university under MoE in Arunachal Pradesh. Strong core engineering placements.",
+    "NAAC_grade": "A",
+    "Contact": "tpo@nerist.ac.in; Phone: +91-360-2284801"
+  },
+  "R.M.K. Engineering College": {
+    "placement_months": "November to March",
+    "placement_season": "December to February",
+    "eligible_semester": "7th and 8th semester (B.Tech final year)",
+    "notes": "Autonomous college in Thiruvallur, Tamil Nadu. Strong IT and core engineering placements.",
+    "NAAC_grade": "A+",
+    "Contact": "placement@rmkec.ac.in; Phone: +91-44-27929390"
+  }
+}

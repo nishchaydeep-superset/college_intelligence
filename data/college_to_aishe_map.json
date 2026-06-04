@@ -1,0 +1,794 @@
+{
+  "Birla Institute of Technology and Science Pilani, Hyderabad Campus": {
+    "registry_name": "BIRLA INSTITUTE OF TECHNOLOGY AND SCIENCE PILANI,HYDERABAD CAMPUS",
+    "aishe_code": "C-55231"
+  },
+  "Birla Institute of Technology and Science Pilani, Goa Campus": {
+    "registry_name": "Birla Institute of Technology and Science Pilani K K Birla Goa Campus",
+    "aishe_code": "C-61982"
+  },
+  "Indian Institute of Management Bangalore": {
+    "registry_name": "Indian Institute of Management Bangalore",
+    "aishe_code": "U-1014"
+  },
+  "Indian Institute of Management Kozhikode": {
+    "registry_name": "Indian Institute of Management Kozhikode",
+    "aishe_code": "U-1013"
+  },
+  "Indian Institute of Management Lucknow": {
+    "registry_name": "Indian Institute of Management Lucknow",
+    "aishe_code": "U-1008"
+  },
+  "Indian Institute of Management Mumbai": {
+    "registry_name": "Indian Institute of Management,Mumbai",
+    "aishe_code": "U-1283"
+  },
+  "Indian Institute of Management Calcutta": {
+    "registry_name": "Indian Institute of Management, Kolkata",
+    "aishe_code": "U-1019"
+  },
+  "Indian Institute of Management Indore": {
+    "registry_name": "Indian Institute of Management Indore",
+    "aishe_code": "U-1012"
+  },
+  "Management Development Institute Gurgaon": {
+    "registry_name": "Development Management Institute",
+    "aishe_code": "S-15033"
+  },
+  "XLRI Xavier School of Management": {
+    "registry_name": "XLRI - Xavier School of Management",
+    "aishe_code": "S-132"
+  },
+  "Symbiosis Institute of Business Management Pune": {
+    "registry_name": "SYMBIOSIS Institute of Business Management, Pune",
+    "aishe_code": "C-19343"
+  },
+  "Indian Institute of Management Raipur": {
+    "registry_name": "Indian Institute of Management Raipur",
+    "aishe_code": "U-1017"
+  },
+  "Indian Institute of Management Tiruchirappalli": {
+    "registry_name": "Indian Institute of Management Tiruchirapalli",
+    "aishe_code": "U-1000"
+  },
+  "Indian Institute of Foreign Trade": {
+    "registry_name": "Indian Institute of Foreign Trade, Delhi",
+    "aishe_code": "U-0102"
+  },
+  "Indian Institute of Management Ranchi": {
+    "registry_name": "Indian Institute of Management Ranchi",
+    "aishe_code": "U-1003"
+  },
+  "Indian Institute of Management Rohtak": {
+    "registry_name": "Indian Institute of Management Rohtak",
+    "aishe_code": "U-1015"
+  },
+  "SP Jain Institute of Management and Research": {
+    "registry_name": "S. P. JAIN INSTITUTE OF MANAGEMENT AND RESEARCH",
+    "aishe_code": "S-244"
+  },
+  "Indian Institute of Management Udaipur": {
+    "registry_name": "Indian Institute of Management Udaipur",
+    "aishe_code": "U-1010"
+  },
+  "Indian Institute of Management Kashipur": {
+    "registry_name": "Indian Institute of Management Kashipur",
+    "aishe_code": "U-1009"
+  },
+  "NMIMS School of Business Management": {
+    "registry_name": "College of Business Management",
+    "aishe_code": "C-36925"
+  },
+  "Indian Institute of Management Visakhapatnam": {
+    "registry_name": "Indian Institute of Management Visakhapatnam",
+    "aishe_code": "U-1007"
+  },
+  "Indian Institute of Management Bodh Gaya": {
+    "registry_name": "Indian Institute of Management Bodh Gaya",
+    "aishe_code": "U-1006"
+  },
+  "Indian Institute of Management Sambalpur": {
+    "registry_name": "Indian Institute of Management Sambalpur",
+    "aishe_code": "U-1002"
+  },
+  "Indian Institute of Management Jammu": {
+    "registry_name": "Indian Institute of Management, Jammu And Kashmir",
+    "aishe_code": "U-1004"
+  },
+  "Great Lakes Institute of Management Chennai": {
+    "registry_name": "GREAT LAKES INSTITUTE OF MANAGEMENT",
+    "aishe_code": "S-327"
+  },
+  "Indian Institute of Management Shillong": {
+    "registry_name": "Indian Institute of Management, Shillong",
+    "aishe_code": "U-1011"
+  },
+  "T A Pai Management Institute Bangalore": {
+    "registry_name": "BANGALORE MANAGEMENT INSTITUTE",
+    "aishe_code": "S-20813"
+  },
+  "International Management Institute Delhi": {
+    "registry_name": "DELHI INSTITUTE OF MANAGEMENT",
+    "aishe_code": "C-64920"
+  },
+  "Jaipuria Institute of Management Noida": {
+    "registry_name": "JAIPURIA INSTITUTE OF MANAGEMENT, NOIDA",
+    "aishe_code": "S-3283"
+  },
+  "International Management Institute Kolkata": {
+    "registry_name": "INTERNATIONAL MANAGEMENT AND ANALYTICS SCHOOL KOLKATA",
+    "aishe_code": "S-26471"
+  },
+  "Goa Institute of Management": {
+    "registry_name": "GOA INSTITUTE OF MANAGEMENT",
+    "aishe_code": "S-87"
+  },
+  "FORE School of Management": {
+    "registry_name": "FORE SCHOOL OF MANAGEMENT",
+    "aishe_code": "S-62"
+  },
+  "Birla Institute of Management Technology Noida": {
+    "registry_name": "BIRLA INSTITUTE OF MANAGEMENT TECHNOLOGY",
+    "aishe_code": "S-354"
+  },
+  "Indian Institute of Management Amritsar": {
+    "registry_name": "Indian Institute of Management Amritsar",
+    "aishe_code": "U-1001"
+  },
+  "Jaipuria Institute of Management Lucknow": {
+    "registry_name": "JAIPURIA ISNTITUTE OF MANAGEMENT LUCKNOW",
+    "aishe_code": "S-419"
+  },
+  "BML Munjal University": {
+    "registry_name": "BML MUNJAL UNIVERSITY",
+    "aishe_code": "U-0735"
+  },
+  "Thiagarajar School of Management": {
+    "registry_name": "THIAGARAJAR SCHOOL OF MANAGEMENT",
+    "aishe_code": "C-36557"
+  },
+  "New Delhi Institute of Management": {
+    "registry_name": "NEW DELHI INSTITUTE OF MANAGEMENT",
+    "aishe_code": "S-78"
+  },
+  "Jagan Institute of Management Studies": {
+    "registry_name": "JAGAN INSTITUTE OF MANAGEMENT STUDIES",
+    "aishe_code": "S-20903"
+  },
+  "Rajagiri Business School": {
+    "registry_name": "RAJAGIRI BUSINESS SCHOOL",
+    "aishe_code": "S-164"
+  },
+  "Bharathidasan Institute of Management": {
+    "registry_name": "BHARATHIDASAN INSTITUTE OF MANAGEMENT",
+    "aishe_code": "C-76346"
+  },
+  "Institute of Management Technology Nagpur": {
+    "registry_name": "CENTRE FOR ADVANCED EDUCATION INSTITUTE OF MANAGEMENT TECHNOLOGY",
+    "aishe_code": "S-198"
+  },
+  "University of Lucknow": {
+    "registry_name": "INSTITUTE OF TECHNOLOGY & MANAGEMENT,LUCKNOW",
+    "aishe_code": "C-49313"
+  },
+  "Indian Institute of Technology Madras": {
+    "registry_name": "Indian Institute of Technology, Madras",
+    "aishe_code": "U-0456"
+  },
+  "Indian Institute of Technology Delhi": {
+    "registry_name": "Indian Institute of Technology, Delhi",
+    "aishe_code": "U-0100"
+  },
+  "Indian Institute of Technology Bombay": {
+    "registry_name": "Indian Institute of Technology, Bombay",
+    "aishe_code": "U-0306"
+  },
+  "Indian Institute of Technology Kanpur": {
+    "registry_name": "Indian Institute of Technology, Kanpur",
+    "aishe_code": "U-0517"
+  },
+  "Indian Institute of Technology Kharagpur": {
+    "registry_name": "Indian Institute of Technology, Kharagpur",
+    "aishe_code": "U-0573"
+  },
+  "Indian Institute of Technology Roorkee": {
+    "registry_name": "Indian Institute of Technology, Roorkee",
+    "aishe_code": "U-0560"
+  },
+  "Indian Institute of Technology Hyderabad": {
+    "registry_name": "Indian Institute of Technology, Hyderabad",
+    "aishe_code": "U-0013"
+  },
+  "Indian Institute of Technology Guwahati": {
+    "registry_name": "Indian Institute of Technology, Guwahati",
+    "aishe_code": "U-0053"
+  },
+  "National Institute of Technology Tiruchirappalli": {
+    "registry_name": "National Institute of Technology, Tiruchirapalli",
+    "aishe_code": "U-0467"
+  },
+  "Birla Institute of Technology and Science Pilani": {
+    "registry_name": "Birla Institute of Technology & Sciences, Pilani",
+    "aishe_code": "U-0391"
+  },
+  "Indian Institute of Technology Indore": {
+    "registry_name": "Indian Institute of Technology, Indore",
+    "aishe_code": "U-0273"
+  },
+  "National Institute of Technology Rourkela": {
+    "registry_name": "National Institute of Technology, Rourkela",
+    "aishe_code": "U-0357"
+  },
+  "Indian Institute of Technology (Indian School of Mines) Dhanbad": {
+    "registry_name": "Indian Institute of Technology (Indian School of Mines), Dhanbad",
+    "aishe_code": "U-0205"
+  },
+  "VIT Vellore": {
+    "registry_name": "Vellore Institute of Technology, Vellore",
+    "aishe_code": "U-0490"
+  },
+  "National Institute of Technology Karnataka Surathkal": {
+    "registry_name": "National Institute of Technology, Karnataka",
+    "aishe_code": "U-0237"
+  },
+  "Indian Institute of Technology Patna": {
+    "registry_name": "Indian Institute of Technology, Patna",
+    "aishe_code": "U-0064"
+  },
+  "Anna University": {
+    "registry_name": "Anna University, Chennai",
+    "aishe_code": "U-0439"
+  },
+  "National Institute of Technology Calicut": {
+    "registry_name": "National Institute of Technology, Calicut",
+    "aishe_code": "U-0263"
+  },
+  "Siksha 'O' Anusandhan": {
+    "registry_name": "Siksha 'O' Anusandhan",
+    "aishe_code": "U-0363"
+  },
+  "Amrita School of Engineering": {
+    "registry_name": "Amrita School of Engineering, Bangalore",
+    "aishe_code": "C-7034"
+  },
+  "Jamia Millia Islamia": {
+    "registry_name": "Jamia Millia Islamia University",
+    "aishe_code": "U-0108"
+  },
+  "Indian Institute of Technology Gandhinagar": {
+    "registry_name": "Indian Institute of Technology, Gandhinagar",
+    "aishe_code": "U-0139"
+  },
+  "Indian Institute of Technology Mandi": {
+    "registry_name": "Indian Institute of Technology, Mandi",
+    "aishe_code": "U-0184"
+  },
+  "Indian Institute of Technology Jodhpur": {
+    "registry_name": "Indian Institute of Technology, Jodhpur",
+    "aishe_code": "U-0395"
+  },
+  "National Institute of Technology Warangal": {
+    "registry_name": "National Institute of Technology, Warangal",
+    "aishe_code": "U-0025"
+  },
+  "Chitkara University Institute of Engineering and Technology": {
+    "registry_name": "Institute of Engineering and Technology",
+    "aishe_code": "C-57939"
+  },
+  "Delhi Technological University": {
+    "registry_name": "Delhi Technological University",
+    "aishe_code": "U-0098"
+  },
+  "Chandigarh University": {
+    "registry_name": "Chandigarh University",
+    "aishe_code": "U-1382"
+  },
+  "Indian Institute of Technology Ropar": {
+    "registry_name": "Indian Institute of Technology, Ropar",
+    "aishe_code": "U-0378"
+  },
+  "Kalasalingam Academy of Research and Education": {
+    "registry_name": "Kalasalingam Academy of Research and Education",
+    "aishe_code": "U-0458"
+  },
+  "Aligarh Muslim University": {
+    "registry_name": "Aligarh Muslim University, Aligarh",
+    "aishe_code": "U-0496"
+  },
+  "Koneru Lakshmaiah Education Foundation": {
+    "registry_name": "Koneru Lakshmaiah Education Foundation,Guntur",
+    "aishe_code": "U-0020"
+  },
+  "Kalinga Institute of Industrial Technology": {
+    "registry_name": "KALINGA INSTITUTE OF INDUSTRIAL TECHNOLOGY KHORDHA",
+    "aishe_code": "S-4863"
+  },
+  "Amity University": {
+    "registry_name": "AMITY UNIVERSITY",
+    "aishe_code": "U-1294"
+  },
+  "International Institute of Information Technology Hyderabad": {
+    "registry_name": "International Institute of Information Technology, Hyderabad",
+    "aishe_code": "U-0014"
+  },
+  "Indian Institute of Technology Bhubaneswar": {
+    "registry_name": "INSTITUTE OF MANAGEMENT BHUBANESWAR",
+    "aishe_code": "S-278"
+  },
+  "Institute of Chemical Technology": {
+    "registry_name": "TARSADIA INSTITUTE OF CHEMICAL SCIENCE",
+    "aishe_code": "C-66216"
+  },
+  "Malaviya National Institute of Technology Jaipur": {
+    "registry_name": "Malviya National Institute of Technology, Jaipur",
+    "aishe_code": "U-0410"
+  },
+  "Visvesvaraya National Institute of Technology Nagpur": {
+    "registry_name": "Visvesvaraya National Institute of Technology, Nagpur",
+    "aishe_code": "U-0334"
+  },
+  "Saveetha Institute of Medical and Technical Sciences": {
+    "registry_name": "SAVEETHA INSTITUTE OF MEDICAL AND TECHNICAL SCIENCES (DEEMED TO BE UNIVERSITY)",
+    "aishe_code": "U-0475"
+  },
+  "Symbiosis Institute of Technology": {
+    "registry_name": "SYMBIOSIS College of Nursing",
+    "aishe_code": "C-19345"
+  },
+  "Lovely Professional University": {
+    "registry_name": "Lovely Professional University",
+    "aishe_code": "U-0379"
+  },
+  "National Institute of Technology Durgapur": {
+    "registry_name": "National Institute of Technology, Durgapur",
+    "aishe_code": "U-0577"
+  },
+  "National Institute of Technology Silchar": {
+    "registry_name": "National Institute of Technology, Silchar",
+    "aishe_code": "U-0055"
+  },
+  "Birla Institute of Technology Mesra": {
+    "registry_name": "Birla Institute of Technology, Ranchi",
+    "aishe_code": "U-0202"
+  },
+  "Graphic Era Deemed to be University": {
+    "registry_name": "GRAPHIC ERA HILL UNIVERSITY",
+    "aishe_code": "U-0638"
+  },
+  "National Institute of Technology Patna": {
+    "registry_name": "National Institute of Technology, Patna",
+    "aishe_code": "U-0072"
+  },
+  "Indian Institute of Engineering Science and Technology Shibpur": {
+    "registry_name": "INDIAN INSTITUTE OF ENGINEERING SCIENCE AND TECHNOLOGY, SHIBPUR",
+    "aishe_code": "U-0584"
+  },
+  "Indian Institute of Technology Jammu": {
+    "registry_name": "Indian Institute of Technology Jammu",
+    "aishe_code": "U-0906"
+  },
+  "Manipal University Jaipur": {
+    "registry_name": "MANIPAL UNIVERSITY, JAIPUR",
+    "aishe_code": "U-0749"
+  },
+  "Manipal Institute of Technology": {
+    "registry_name": "Manipal Institute of Management, Manipal",
+    "aishe_code": "C-7244"
+  },
+  "Madan Mohan Malaviya University of Technology": {
+    "registry_name": "MADAN MOHAN MALAVIYA UNIVERSITY OF TECHNOLOGY,",
+    "aishe_code": "U-0739"
+  },
+  "Indian Institute of Space Science and Technology": {
+    "registry_name": "Indian Institute of Space Science and Technology, Thiruvananthapuram",
+    "aishe_code": "U-0255"
+  },
+  "Motilal Nehru National Institute of Technology Allahabad": {
+    "registry_name": "Motilal Nehru National Institute of Technology, Allahabad",
+    "aishe_code": "U-0530"
+  },
+  "Indraprastha Institute of Information Technology Delhi": {
+    "registry_name": "Indraprastha Institute of Information Technology, Delhi",
+    "aishe_code": "U-0105"
+  },
+  "Indian Institute of Technology Palakkad": {
+    "registry_name": "Indian Institute of Technology, Palakkad",
+    "aishe_code": "U-0878"
+  },
+  "National Institute of Technology Delhi": {
+    "registry_name": "National Institute of Technology Delhi",
+    "aishe_code": "U-0622"
+  },
+  "Sardar Vallabhbhai National Institute of Technology Surat": {
+    "registry_name": "Sardar Vallabhbhai National Institute of Technology, Surat",
+    "aishe_code": "U-0149"
+  },
+  "Sathyabama Institute of Science and Technology": {
+    "registry_name": "SATHYABAMA COLLEGE OF EDUCATION",
+    "aishe_code": "C-69027"
+  },
+  "International Institute of Information Technology Bangalore": {
+    "registry_name": "International Institute of Information Technology, Bangalore",
+    "aishe_code": "U-0221"
+  },
+  "Netaji Subhas University of Technology": {
+    "registry_name": "Netaji Subhas Institute of Technology",
+    "aishe_code": "C-43568"
+  },
+  "Banasthali Vidyapith": {
+    "registry_name": "Banasthali Vidyapith",
+    "aishe_code": "U-0389"
+  },
+  "Indian Institute of Technology Bhilai": {
+    "registry_name": "Indian Institute of Technology Bhilai",
+    "aishe_code": "U-0946"
+  },
+  "National Institute of Technology Srinagar": {
+    "registry_name": "National Institute of Technology, Srinagar",
+    "aishe_code": "U-0197"
+  },
+  "University of Hyderabad": {
+    "registry_name": "INSTITUTE OF MANAGEMENT TECHNOLOGY HYDERABAD",
+    "aishe_code": "S-26286"
+  },
+  "Ramaiah Institute of Technology": {
+    "registry_name": "M S RAMAIAH INSTITUTE OF MANAGEMENT",
+    "aishe_code": "S-148"
+  },
+  "Christ University": {
+    "registry_name": "Christ Institute of Management",
+    "aishe_code": "S-14904"
+  },
+  "Indian Institute of Technology Dharwad": {
+    "registry_name": "Indian Institute of Technology, Dharwad",
+    "aishe_code": "U-0899"
+  },
+  "Rajiv Gandhi Institute of Petroleum Technology": {
+    "registry_name": "Rajiv Gandhi Institute of Petroleum Technology, Amethi",
+    "aishe_code": "U-0535"
+  },
+  "Sant Longowal Institute of Engineering and Technology": {
+    "registry_name": "Sant Longowal Institute of Engg. & Tech., Longowal",
+    "aishe_code": "U-0384"
+  },
+  "Vignan's Foundation for Science Technology and Research": {
+    "registry_name": "Ahmedabad University",
+    "aishe_code": "U-0122"
+  },
+  "Maulana Azad National Institute of Technology Bhopal": {
+    "registry_name": "Maulana Azad National Institute of Technology, Bhopal",
+    "aishe_code": "U-0284"
+  },
+  "National Institute of Technology Jamshedpur": {
+    "registry_name": "National Institute of Technology, Jamshedpur",
+    "aishe_code": "U-0207"
+  },
+  "National Institute of Technology Meghalaya": {
+    "registry_name": "National Institute of Technology Meghalaya",
+    "aishe_code": "U-0619"
+  },
+  "National Institute of Technology Kurukshetra": {
+    "registry_name": "National Institute of Technology, Kurukshetra",
+    "aishe_code": "U-0172"
+  },
+  "National Institute of Technology Raipur": {
+    "registry_name": "National Institute of Technology, Raipur",
+    "aishe_code": "U-0092"
+  },
+  "Vel Tech Rangarajan Dr. Sagunthala R&D Institute of Science and Technology": {
+    "registry_name": "Vel Tech Rangarajan Dr. Sagunthala R & D Institute of Science & Technology, Chennai",
+    "aishe_code": "U-0489"
+  },
+  "New Horizon College of Engineering": {
+    "registry_name": "New Horizon College of Engineering, BANGALORE",
+    "aishe_code": "C-1371"
+  },
+  "SR University": {
+    "registry_name": "S R COLLEGE",
+    "aishe_code": "S-20558"
+  },
+  "Defence Institute of Advanced Technology": {
+    "registry_name": "COLLEGE OF DEFENCE MANAGEMENT",
+    "aishe_code": "C-64701"
+  },
+  "Panjab University": {
+    "registry_name": "Panjab University,Chandigarh",
+    "aishe_code": "U-0078"
+  },
+  "Jawaharlal Nehru Technological University Hyderabad": {
+    "registry_name": "Jawaharlal Nehru Technological University, Hyderabad",
+    "aishe_code": "U-0017"
+  },
+  "Atal Bihari Vajpayee Indian Institute of Information Technology and Management": {
+    "registry_name": "Atal Bihari Vajpayee Indian Institute of Information Technology and Management, Gwalior",
+    "aishe_code": "U-0267"
+  },
+  "National Institute of Technology Hamirpur": {
+    "registry_name": "National Institute of Technology, Hamirpur",
+    "aishe_code": "U-0189"
+  },
+  "Pandit Deendayal Energy University": {
+    "registry_name": "PANDIT DEENDAYAL ENERGY UNIVERSITY, GANDHI NAGAR",
+    "aishe_code": "U-0147"
+  },
+  "National Institute of Technology Puducherry": {
+    "registry_name": "National Institute of Technology Puducherry",
+    "aishe_code": "U-0621"
+  },
+  "Hindusthan College of Engineering and Technology": {
+    "registry_name": "Hindusthan College of Engineering and Technology",
+    "aishe_code": "C-37063"
+  },
+  "IES College of Technology, Bhopal": {
+    "registry_name": "IES Institute of Technology and Management, Bhopal",
+    "aishe_code": "C-36000"
+  },
+  "Indian Institute of Information Technology Guwahati": {
+    "registry_name": "Indian Institute of Information Technology, Guwahati",
+    "aishe_code": "U-0795"
+  },
+  "Indian Institute of Petroleum & Energy": {
+    "registry_name": "INDIAN INSTITUTE OF PETROLEUM & ENERGY",
+    "aishe_code": "U-0944"
+  },
+  "Indira Gandhi Delhi Technical University for Women": {
+    "registry_name": "INDIRA GANDHI DELHI TECHNICAL UNIVERSITY FOR WOMEN",
+    "aishe_code": "U-0685"
+  },
+  "Jamia Hamdard": {
+    "registry_name": "Jamia Hamdard",
+    "aishe_code": "U-0107"
+  },
+  "Galgotias College of Engineering & Technology": {
+    "registry_name": "GALGOTIAS INSTITUTE OF MANAGEMENT AND TECHNOLOGY",
+    "aishe_code": "C-62116"
+  },
+  "Gandhi Engineering College (GEC)": {
+    "registry_name": "Gandhi Engineering College (GEC), Bhubaneswar",
+    "aishe_code": "C-30148"
+  },
+  "Gandhi Institute for Technological Advancement (GITA), Bhubaneswar": {
+    "registry_name": "GITA Autonomous College, Bhubaneswar",
+    "aishe_code": "C-30066"
+  },
+  "GIET University, Gunupur": {
+    "registry_name": "Gunupur College, Gunupur",
+    "aishe_code": "C-39432"
+  },
+  "GMR Institute of Technology": {
+    "registry_name": "GMR College of Education",
+    "aishe_code": "C-25678"
+  },
+  "Godavari Institute of Engineering & Technology": {
+    "registry_name": "WEST GODAVARI INSTITUTE OF SCIENCE AND ENGINEERING",
+    "aishe_code": "C-17995"
+  },
+  "Guru Jambheshwar University of Science and Technology, Hissar": {
+    "registry_name": "Guru  Jambheshwar University of Science and Technology, Hissar",
+    "aishe_code": "U-0162"
+  },
+  "Harcourt Butler Technical University": {
+    "registry_name": "HARCOURT BUTLER TECHNICAL UNIVERSITY",
+    "aishe_code": "U-0864"
+  },
+  "Amity University, Gwalior": {
+    "registry_name": "Amity University, Gwalior",
+    "aishe_code": "U-0604"
+  },
+  "BMS Institute of Technology & Management (BMSIT)": {
+    "registry_name": "B M S Institute of Technology & Management, BANGALORE",
+    "aishe_code": "C-1336"
+  },
+  "Centurion University of Technology & Management (CUTM)": {
+    "registry_name": "Centurion University of Technology and Management",
+    "aishe_code": "U-0353"
+  },
+  "Army Institute of Technology, Pune": {
+    "registry_name": "Army Institute of Technology, Dighi Hills, Pune",
+    "aishe_code": "C-42054"
+  },
+  "Ajeenkya D Y Patil University": {
+    "registry_name": "Ajeenkya D Y Patil University",
+    "aishe_code": "U-0885"
+  },
+  "Amity University Patna": {
+    "registry_name": "AMITY UNIVERSITY PATNA",
+    "aishe_code": "U-0964"
+  },
+  "Amity University, Jharkhand": {
+    "registry_name": "AMITY UNIVERSITY,JHARKHAND",
+    "aishe_code": "U-0875"
+  },
+  "Annamalai University": {
+    "registry_name": "Annamalai University, Annamalainagar",
+    "aishe_code": "U-0443"
+  },
+  "B. S. Abdur Rahman Crescent Institute of Science and Technology": {
+    "registry_name": "B.S. Abdur Rahman Crescent Institute of Science & Technology",
+    "aishe_code": "U-0445"
+  },
+  "B.M.S. College of Engineering": {
+    "registry_name": "BMS College of Engineering, BANGALORE",
+    "aishe_code": "C-1262"
+  },
+  "Bharati Vidyapeeth Deemed University College of Engineering": {
+    "registry_name": "Bharati Vidyapeeth's College of Engineering",
+    "aishe_code": "C-32863"
+  },
+  "C M R Institute of Technology": {
+    "registry_name": "CMR Institute of Technology",
+    "aishe_code": "C-19837"
+  },
+  "CGC College of Engineering, Landran": {
+    "registry_name": "CGC College of Engineering, Landran",
+    "aishe_code": "C-29461"
+  },
+  "Chaitanya Bharathi Institute of Technology": {
+    "registry_name": "Chaitanya Bharathi Institute of Technology",
+    "aishe_code": "C-25622"
+  },
+  "CVR College of Engineering": {
+    "registry_name": "CVR College of Engineering",
+    "aishe_code": "C-19607"
+  },
+  "Dayalbagh Educational Institute": {
+    "registry_name": "Dayalbagh Educational Institute, Agra",
+    "aishe_code": "U-0507"
+  },
+  "Dr. D. Y. Patil Institute of Technology": {
+    "registry_name": "DR D Y PATIL SCHOOL OF SCIENCE AND TECHNOLOGY",
+    "aishe_code": "C-69521"
+  },
+  "G. L. A. University": {
+    "registry_name": "GLA University Mathura",
+    "aishe_code": "U-0513"
+  },
+  "Goka Raju Ranga Raju Institute of Engineering & Technology": {
+    "registry_name": "Gokaraju Rangaraju Institute of Engineering & Technology",
+    "aishe_code": "C-19534"
+  },
+  "Guru Ghasidas Vishwavidyalaya": {
+    "registry_name": "Guru Ghasidas Vishwavidyalaya, Bilaspur",
+    "aishe_code": "U-0085"
+  },
+  "Dr. M. G. R. Educational and Research Institute": {
+    "registry_name": "Dr MGR Institute of Special Education and Research",
+    "aishe_code": "C-63347"
+  },
+  "G.L.Bajaj Institute of Technology and Management": {
+    "registry_name": "G L BAJAJ INSTITUTE OF MANAGEMENT",
+    "aishe_code": "C-69956"
+  },
+  "SRM Easwari Engineering College": {
+    "registry_name": "S.R.M. Institute of Science & Technology, Chennai",
+    "aishe_code": "U-0473"
+  },
+  "Amity University Rajasthan, Jaipur": {
+    "registry_name": "Amity University Rajasthan, Jaipur",
+    "aishe_code": "U-0388"
+  },
+  "Chandigarh Engineering College-CGC, Landran, Mohali": {
+    "registry_name": "CHANDIGARH ENGINEERING COLLEGE-CGC, LANDRAN, MOHALI",
+    "aishe_code": "C-10342"
+  },
+  "Chennai Institute of Technology": {
+    "registry_name": "Chennai Institute of Technology",
+    "aishe_code": "C-16576"
+  },
+  "Coimbatore Institute of Technology": {
+    "registry_name": "Coimbatore Institute of Technology",
+    "aishe_code": "C-36969"
+  },
+  "College of Engineering Trivandrum": {
+    "registry_name": "College of Engineering Trivandrum.",
+    "aishe_code": "C-43708"
+  },
+  "Dr. Vishwanath Karad MIT World Peace University": {
+    "registry_name": "Dr. Vishwanath Karad MIT World Peace University",
+    "aishe_code": "U-0938"
+  },
+  "Vallurupalli Nageswara Rao Vignana Jyothi Institute of Engineering and Technology": {
+    "registry_name": "VIGNANA JYOTHI INSTITUTE OF MANAGEMENT",
+    "aishe_code": "S-35"
+  },
+  "Anurag University": {
+    "registry_name": "Anurag Group of Institutions",
+    "aishe_code": "C-19747"
+  },
+  "Bansilal Ramnath Agarwal Charitable Trust's Vishwakarma Institute of Technology Pune": {
+    "registry_name": "VISHWAKARMA UNIVERSITY",
+    "aishe_code": "U-0888"
+  },
+  "Tezpur University": {
+    "registry_name": "Tezpur College",
+    "aishe_code": "C-17275"
+  },
+  "The National Institute of Engineering": {
+    "registry_name": "National Engineering College",
+    "aishe_code": "C-27089"
+  },
+  "Sri Sairam Engineering College": {
+    "registry_name": "Sri Sairam Engineering College",
+    "aishe_code": "C-16547"
+  },
+  "Sri Ramakrishna Engineering College": {
+    "registry_name": "SRI RAMAKRISHNA COLLEGE OF ENGINEERING",
+    "aishe_code": "C-48280"
+  },
+  "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram": {
+    "registry_name": "Indian Institute of Information Technology, Design & Manufacturing, Kancheepuram",
+    "aishe_code": "U-0455"
+  },
+  "Institute of Aeronautical Engineering": {
+    "registry_name": "COLLEGE OF AERONAUTICAL ENGINEERING",
+    "aishe_code": "S-27319"
+  },
+  "Institute of Engineering & Management": {
+    "registry_name": "Institute of Engineering & Management",
+    "aishe_code": "C-6192"
+  },
+  "Integral University": {
+    "registry_name": "INTEGRAL COLLEGE OF NURSING",
+    "aishe_code": "S-26717"
+  },
+  "Islamic University of Science & Technology, Pulwama": {
+    "registry_name": "Islamic University of Science & Technology, Pulwama",
+    "aishe_code": "U-0194"
+  },
+  "JSPM's Rajarshi Shahu College of Engineering": {
+    "registry_name": "Jaywant Shikshan Prasarak Mandal's Rajarshi Shahu College of Engineering, Mulashi, Pune",
+    "aishe_code": "C-41614"
+  },
+  "J. C. Bose University of Science and Technology, YMCA": {
+    "registry_name": "J.C. BOSE UNIVERSITY OF SCIENCE AND TECHNOLOGY, YMCA, FARIDABAD",
+    "aishe_code": "U-0175"
+  },
+  "Jawaharlal Nehru Technological University": {
+    "registry_name": "Jawaharlal Nehru Technological University, Hyderabad",
+    "aishe_code": "U-0017"
+  },
+  "KIET Group of Institutions": {
+    "registry_name": "KIET GROUP OF INSTITUTIONS, GHAZIABAD",
+    "aishe_code": "C-46111"
+  },
+  "KLE Technological University": {
+    "registry_name": "KLE TECHNOLOGICAL UNIVERSITY",
+    "aishe_code": "U-0854"
+  },
+  "Ramdeobaba University, Nagpur": {
+    "registry_name": "Ramdeobaba University",
+    "aishe_code": "U-1336"
+  },
+  "Sona College of Technology": {
+    "registry_name": "Sona College of Technology",
+    "aishe_code": "C-37028"
+  },
+  "Shri Mata Vaishno Devi University": {
+    "registry_name": "Shri mata vaishno devi paramedical institute",
+    "aishe_code": "S-17679"
+  },
+  "National Institute of Technology Manipur": {
+    "registry_name": "National Institute of Technology Manipur",
+    "aishe_code": "U-0613"
+  },
+  "National Institute of Technology Sikkim": {
+    "registry_name": "National Institute of Technology Sikkim",
+    "aishe_code": "U-0614"
+  },
+  "National Institute of Technology Uttarakhand": {
+    "registry_name": "National Institute of Technology Uttarakhand",
+    "aishe_code": "U-0616"
+  },
+  "NMAM Institute of Technology": {
+    "registry_name": null,
+    "aishe_code": null
+  },
+  "North Eastern Regional Institute of Science & Technology": {
+    "registry_name": "NORTH EASTERN REGIONAL INSTITUTE OF MANAGEMENT(NERIM)",
+    "aishe_code": "C-50903"
+  },
+  "R.M.K. Engineering College": {
+    "registry_name": "R M K College of Engineering and Technology",
+    "aishe_code": "C-16497"
+  }
+}
