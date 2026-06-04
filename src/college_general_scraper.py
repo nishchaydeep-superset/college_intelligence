@@ -1,12 +1,4 @@
 #!/usr/bin/env python3
-"""
-College General Data Scraper
-============================
-Crawls all non-placement endpoints (Main, Reviews, Ranking, Fees/Courses, etc.)
-from CollegeDunia and Careers360 for colleges in college_urls.json.
-Stores structured text paragraphs, tables, lists, and metadata in data/college_general_data.json.
-"""
-
 import json
 import time
 import re

@@ -1,22 +1,3 @@
-"""
-Placement web research API + static UI.
-
-Uses a single Google AI Studio API key with Gemini **Grounding with Google Search**
-(no Custom Search / Programmable Search API).
-
-Configure `GEMINI_API_KEY` in `src/research_settings.py` or the environment.
-Optional: `GEMINI_MODEL`, `GEMINI_MODEL_FALLBACKS` (comma-separated) for quota issues.
-
-Caches each college's report + chat in `data/placement_research_by_college.json`.
-
-Run from project root:
-  uvicorn src.placement_research_api:app --reload --host 127.0.0.1 --port 8765
-Open http://127.0.0.1:8765/
-
-If the UI is served with `python -m http.server` or file://, POST returns HTTP 501 —
-use uvicorn so `/api/placement-research` is available on the same origin.
-"""
-
 from __future__ import annotations
 
 import json
@@ -468,11 +449,9 @@ def _handle_main_report(college: str, force_refresh: bool) -> dict[str, Any]:
                 "model_used": None,
             }
 
-    # --- Fresh generation ---
     chat_messages = [ChatMessage(role="user", content=MAIN_REPORT_USER_PROMPT)]
     reply, sources, model_used = _generate_grounded(college, chat_messages)
 
-    # Store full message trace internally (hidden from frontend)
     internal_messages = [
         {"role": "user", "content": MAIN_REPORT_USER_PROMPT},
         {"role": "assistant", "content": reply},
@@ -487,11 +466,6 @@ def _handle_main_report(college: str, force_refresh: bool) -> dict[str, Any]:
         "messages": [],
         "model_used": model_used,
     }
-
-
-# ---------------------------------------------------------------------------
-# University Grouping Endpoints
-# ---------------------------------------------------------------------------
 
 @app.get("/api/university-groups")
 def get_university_groups():
