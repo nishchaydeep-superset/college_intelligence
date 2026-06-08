@@ -2,6 +2,7 @@ class CollegePlacementDashboard {
     constructor() {
         this.collegeData = null;
         this.generalData = null;
+        this.redditData = null;
         this.activeGeneralSubTab = 'overview';
         this.placementSeasons = {};
         this.selectedCollege = null;
@@ -121,6 +122,26 @@ class CollegePlacementDashboard {
                 this.generalData = {};
             }
 
+            // Fetch Reddit data
+            try {
+                let redditRes = await fetch(`/data/college_reddit_data.json?t=${Date.now()}`);
+                if (!redditRes.ok) redditRes = await fetch(`/data/college_reddit_data.json.bak?t=${Date.now()}`);
+                if (redditRes.ok) {
+                    this.redditData = await redditRes.json();
+                } else {
+                    let fallback = await fetch(`../data/college_reddit_data.json?t=${Date.now()}`);
+                    if (!fallback.ok) fallback = await fetch(`../data/college_reddit_data.json.bak?t=${Date.now()}`);
+                    if (fallback.ok) {
+                        this.redditData = await fallback.json();
+                    } else {
+                        this.redditData = {};
+                    }
+                }
+            } catch (e) {
+                console.error('Error loading Reddit data:', e);
+                this.redditData = {};
+            }
+
             const cachedData = this.getCachedData();
             if (cachedData) {
                 this.collegeData = cachedData;
@@ -224,6 +245,7 @@ class CollegePlacementDashboard {
         this.displayRawData(collegeData);
         this.updateResearchTabForCollege();
         this.displayGeneralProfile();
+        this.displayRedditData(this.selectedCollege);
 
         // Load cached intelligence profile for the new college
         if (typeof this.loadIntelligenceProfile === 'function') {
@@ -430,6 +452,105 @@ class CollegePlacementDashboard {
         } finally {
             this.setResearchLoading(false);
         }
+    }
+
+    displayRedditData(collegeName) {
+        const container = document.getElementById('redditContent');
+        if (!container) return;
+
+        if (!this.redditData || !this.redditData[collegeName]) {
+            container.innerHTML = '<p class="text-gray-500 text-sm">No Reddit discussion data available for this college. Run the Reddit scraper to collect data.</p>';
+            return;
+        }
+
+        const data = this.redditData[collegeName];
+        const threads = data.threads || [];
+
+        if (threads.length === 0) {
+            container.innerHTML = '<p class="text-gray-500 text-sm">No Reddit discussion threads found for this college.</p>';
+            return;
+        }
+
+        this.renderRedditThreads(threads, data.scraped_at);
+    }
+
+    renderRedditThreads(threads, scrapedAt) {
+        const container = document.getElementById('redditContent');
+        if (!container) return;
+
+        if (threads.length === 0) {
+            container.innerHTML = `
+                <div class="text-center py-12 bg-white border border-gray-200 rounded-lg shadow-sm">
+                    <i class="fab fa-reddit text-gray-300 text-4xl mb-3"></i>
+                    <p class="text-gray-500 text-sm">No Reddit discussion threads found for this college.</p>
+                </div>
+            `;
+            return;
+        }
+
+        const scrapedTime = scrapedAt ? new Date(scrapedAt).toLocaleString() : 'N/A';
+
+        container.innerHTML = `
+            <div class="mb-4 text-sm flex justify-between items-center">
+                <span class="inline-flex items-center gap-1.5 px-3 py-1 bg-indigo-50 border border-indigo-100 text-indigo-700 text-xs font-semibold rounded-full">
+                    <i class="fab fa-reddit text-orange-500"></i> Found: ${threads.length} Thread(s)
+                </span>
+                <span class="text-xs text-gray-400">Last Scraped: ${scrapedTime}</span>
+            </div>
+            <div class="space-y-6">
+                ${threads.map((thread, idx) => `
+                    <div class="bg-white border border-gray-200 rounded-xl p-5 shadow-sm hover:shadow-md transition-all duration-300 relative overflow-hidden group">
+                        <!-- Top Accent Line (Reddit Themed Gradient) -->
+                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-orange-500 to-red-500 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+                        
+                        <!-- Thread Header -->
+                        <div class="flex flex-wrap justify-between items-start gap-3 border-b border-gray-100 pb-3 mb-4">
+                            <h4 class="text-md font-semibold text-gray-900 flex-1 min-w-[250px] leading-snug">
+                                <a href="${thread.url}" target="_blank" rel="noopener noreferrer" class="hover:text-indigo-600 hover:underline flex items-start gap-2.5 transition-colors">
+                                    <i class="fab fa-reddit text-orange-500 text-xl mt-0.5 shrink-0 group-hover:scale-110 transition-transform duration-200"></i>
+                                    <span>${this.escapeHtml(thread.title)}</span>
+                                </a>
+                            </h4>
+                            <span class="text-xs font-medium px-2.5 py-1 bg-indigo-50 border border-indigo-100 text-indigo-700 rounded-full shrink-0">
+                                r/${this.escapeHtml(thread.subreddit)}
+                            </span>
+                        </div>
+                        
+                        <!-- OP Selftext -->
+                        ${thread.selftext ? `
+                            <div class="text-sm text-gray-700 bg-gray-50 rounded-lg p-3.5 mb-4 whitespace-pre-wrap border border-gray-100">
+                                <span class="font-bold text-xs text-gray-400 uppercase tracking-wider block mb-1.5">Original Post (by ${this.escapeHtml(thread.author)}):</span>
+                                <div class="text-gray-800 leading-relaxed font-sans">${this.escapeHtml(thread.selftext)}</div>
+                            </div>
+                        ` : ''}
+
+                        <!-- Comments Section -->
+                        <div class="space-y-3">
+                            <div class="flex items-center gap-2 border-t border-gray-100 pt-3">
+                                <span class="text-xs font-bold text-gray-400 uppercase tracking-wider">Top Comments (${thread.comments ? thread.comments.length : 0})</span>
+                            </div>
+                            ${thread.comments && thread.comments.length > 0 ? `
+                                <div class="space-y-3">
+                                    ${thread.comments.map(comment => `
+                                        <div class="bg-gray-50 rounded-lg p-3 text-sm border border-gray-100 hover:border-gray-200 transition-colors">
+                                            <div class="flex items-center justify-between mb-1.5 border-b border-gray-100/50 pb-1">
+                                                <span class="font-bold text-xs text-gray-500 flex items-center gap-1">
+                                                    <i class="fas fa-user-circle text-gray-400 text-xs"></i>
+                                                    ${this.escapeHtml(comment.author)}
+                                                </span>
+                                            </div>
+                                            <p class="text-gray-800 leading-relaxed">${this.escapeHtml(comment.body)}</p>
+                                        </div>
+                                    `).join('')}
+                                </div>
+                            ` : `
+                                <p class="text-xs text-gray-400 italic">No comments found or thread is empty.</p>
+                            `}
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
     }
 
     displayPlacementSeason(collegeName) {
@@ -975,6 +1096,9 @@ class CollegePlacementDashboard {
 
         if (tabName === 'generalprofile') {
             this.displayGeneralProfile();
+        }
+        if (tabName === 'reddit') {
+            this.displayRedditData(this.selectedCollege);
         }
     }
 
